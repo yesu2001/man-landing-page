@@ -1,0 +1,48 @@
+.Hero_section {
+    width: 100%;
+    height: 700px;
+    background: url('../../images/PA.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero_content {
+    max-width: 400px;
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+
+.hero_heading {
+    margin: 20px 0;
+    color: white;
+    font-size: 3em;
+}
+.hero_heading > p{
+    color:#FF4240;
+}
+
+.hero_subheading {
+    color: #a0a0a0;
+    margin: 10px 0;
+    line-height: 2;
+    font-size: 1.2em;
+}
+
+.hero_checkout {
+    cursor: pointer;
+    margin-top:40px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background: #FF4240;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.hero_checkout:hover {
+    background: #f66260;
+}

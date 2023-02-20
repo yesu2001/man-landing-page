@@ -1,0 +1,33 @@
+.ProductSection {
+    height: 90vh;
+    padding: 20px 50px;
+    /* display: flex; */
+}
+
+.product_header {
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.product_para {
+    max-width: 450px;
+    letter-spacing: 1px;
+    line-height: 1.9;
+    font-size: 20px;
+    color: #a0a0a0;
+    padding-bottom: 20px;
+}
+
+
+
+.product_more {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: #3ca634;
+    color:white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
