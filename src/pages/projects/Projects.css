@@ -1,0 +1,40 @@
+.Projects {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 0;
+}
+
+
+.section_one {
+	height: 90vh;
+	padding-top: 100px;
+}
+
+.section_one>p {
+	font-size: 40px;
+	max-width: 1000px;
+}
+
+
+.section_one>b {
+	margin: 10px 0;
+}
+
+.section_two {
+	display: flex;
+}
+
+.section_two_left {
+	flex: 0.5;
+	padding: auto 20px;
+}
+
+.section_two_right {
+	flex: 0.5;
+}
+
+.section_two_right > img {
+	width: 100%;
+}

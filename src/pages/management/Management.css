@@ -1,0 +1,25 @@
+.management {
+	margin: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.management > h2, .management>p {
+	padding: 10px 0;
+}
+
+
+.management_section {
+	padding: 20px 10px;
+}
+
+.social_icons {
+	margin: 10px 0;
+}
+
+.social_icons>a {
+	margin-right: 20px;
+}
+

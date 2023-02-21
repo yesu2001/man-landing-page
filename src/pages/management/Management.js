@@ -19,8 +19,8 @@ function Management() {
 						MK earned a Bachelor of Technology degree from Indian Institute of Technology Madras.<br/>
 					</p>
 					<div className="social_icons">
-						<ImTwitter/>
-						<ImLinkedin/>
+						<a href=""><ImTwitter/></a>
+						<a href=""><ImLinkedin/></a>
 					</div>
 				</div>
 				<div className="management_section">
@@ -33,8 +33,8 @@ function Management() {
 						Joe holds a Bachelor's in Computer Application from the University of Bangalore, Karnataka, India.<br/>
 					</p>
 					<div className="social_icons">
-						<ImTwitter/>
-						<ImLinkedin/>
+						<a href=""><ImTwitter/></a>
+						<a href=""><ImLinkedin/></a>
 					</div>
 				</div>
 			</div>
