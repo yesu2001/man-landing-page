@@ -1,0 +1,430 @@
+section {
+    font-size: 30px;
+    color: black;
+}
+.Pro{
+    font-family: 'D-DIN Regular';
+    font-size: 30px;
+    color: black;
+}
+.main-title-div-wrap{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.videoo{
+    z-index: -1;
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}
+.eu-div-wrap{
+    width: 87.5%;
+    margin: 0 auto 2.5em auto;
+}
+.eu-div-wrap h2{
+    font-size: 2em;
+    color: white;
+    
+}
+.h1po{
+    color: black;
+    margin: 5em 0;
+}
+.h1po h1{
+    font-weight: 100;
+    width: 75%;
+    margin: 0 auto;
+    font-size: 1.5em;
+    color: #5a5a5a;
+    text-align: center;
+}
+.hp-ee{
+    background-color: #f3f6f5;
+    padding: 2.5em 0;
+}
+.hp-ee h1{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 2em;
+    color: #5a5a5a;
+    text-align: center;
+    font-family: 'Nothing You Could Do', cursive;
+}
+.hp-ee p{
+    width: 50%;
+    margin: 1.5em auto;
+    font-size: 0.55em;
+}
+.cc-ap-div{
+    width: 90%;
+    margin: 2.5em auto;
+    display: flex;
+    gap: 1em;
+}
+.cc-ap-div div{
+    width: 100%;
+    padding: 5em 0 0.5em 0;
+    background-color: #333;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    transition: 0.25s ease-in-out;
+}
+.cc-ap-div div:hover{
+    background-color: #e76f51;
+    color: black;
+    transition: 0.25s ease-in-out;
+}
+.cc-ap-div h2{
+    font-size: 1em;
+    width: 75%;
+    margin: 0 0 0 0.5em;
+    font-family: 'D-DIN Condensed DINCondensed-Bold';
+}
+.pp-ee{
+    width: 50%;
+    margin: 2.5em auto;
+}
+.pp-ee h1{
+    font-size: 1.5em;
+    font-weight: 100;
+}
+.pp-ee p{
+    font-size: 0.55em;
+    color: #5a5a5a;
+}
+.ee-pp-di-wr{
+    padding: 5em 0;
+    background-color: #333;
+    color: white;
+}
+.ee-cn-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5em;
+}
+.ee-cn-div h1{
+    font-size: 2em;
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Nothing You Could Do', cursive;
+    font-weight: bolder;
+    border-bottom: 1px solid white;
+    padding-bottom: 0.25em;
+}
+.stic-wrp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+}
+.stic-bar-top{
+    position: sticky;
+    top: 0;
+    padding: 0.5em 0;
+    background-color: white;
+    border-bottom: 1px solid darkgray;
+    z-index: 10;
+}
+.stic-wrp h1{
+    font-size: 0.75em;
+    margin: 0;
+}
+.stic-wrp h1 span{
+    background-color: #e76f51;
+    padding: 0.1em ;
+}
+.sti-ico{
+    display: flex;
+    gap: 1em;
+}
+.icon {
+    cursor: pointer;
+    transition: 0.25s ease-in-out;
+}
+.icon:hover{
+    color: #e76f51;
+    transition: 0.25s ease-in-out;
+}
+.ee-sep-div{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+}
+.ee-sep-div div{
+    width: 100%;
+}
+.ee-sep-div div:nth-child(3){
+    border-left: 0.5px solid white;
+    border-right: 0.5px solid white;
+    padding: 0 1em;
+}
+.ee-sep-div h3{
+    font-family: 'D-DIN Condensed DINCondensed-Bold';
+    font-size: 1em;
+    color: #e76f51;
+}
+.ee-sep-div p{
+    font-size: 0.55em;
+    margin-bottom: 2em;
+    color: darkgray;
+}
+.ee-sep-div p span{
+    font-size: 5em;
+    font-family: 'Helvetica';
+    font-weight: bolder;
+    color: white;
+}
+.test-img{
+    background: url(../../images/evcar.jpg);
+    background-size: cover;
+    background-position: right;
+}
+.sec-ig-div{
+    background: url(../../images/share.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sec-wrp-div-ig{
+    display: flex;
+    border-bottom: 0.5px solid #5a5a5a;
+    padding: 1.5em 0;
+    gap: 2.5em;
+    width: 90%;
+    margin: 0 auto;
+}
+.sec-wrp-div-ig div{
+    width: 100%;
+}
+.sec-con-div{
+    color: #5a5a5a;
+    padding: 0.25em 0.5em;
+}
+.sec-con-div div div{
+    margin: 0.5em 0;
+}
+.sec-con-div div div:nth-child(2){
+    text-align: right;
+}
+.sec-con-div h2{
+    font-size: 1.5em;
+    margin: 0;
+    font-family: 'D-DIN Condensed DINCondensed-Bold';
+    display: inline-block;
+    background-color: #e76f51;
+    color: black;
+}
+.sec-con-div h3{
+    font-size: 0.55em;
+    font-family: 'D-DIN DIN-Bold';
+    color: black;
+}
+.sec-con-div h3 span{
+    font-size: 5em;
+    color: #5a5a5a;
+    font-family: 'Helvetica';
+    font-weight: bolder;
+}
+.bg-bg h1{
+    width: 90%;
+    margin: 1em auto;
+    font-size: 2em;
+    font-family: 'D-DIN Condensed DINCondensed-Bold';
+}
+.bg-bg p{
+    width: 90%;
+    margin: 0 auto 0.5em auto;
+    font-size: 0.55em;
+}
+.bg-col{
+    background-color: #f3f6f5;
+    margin: 0;
+    padding: 1.5em 0;
+}
+.bg-wrp{
+    width: 90%;
+    margin: 0 auto;
+}
+.bg-col div h1{
+    font-size: 2em;
+    font-family: 'D-DIN Condensed DINCondensed-Bold';
+}
+.bg-col div p{
+    font-size: 0.55em;
+}
+.c-img-div{
+    width: 30%;
+    background: url(../../images/EVC.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.c-wrp-div{
+    width: 100%;
+    display: flex;
+    margin: 1.5em auto;
+}
+.c-wrp-div div:nth-child(2){
+    width: 100%;
+    background-color: #333;
+    color: white;
+}
+.c-wrp-div div div{
+    width: 85%;
+    margin: 0 auto;
+    padding: 2.5em 0;
+}
+.c-wrp-div h2{
+    font-size: 1em;
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+/**/
+.pr-wrp-div{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+    background-color: black;
+    color: white;
+}
+.pr-wrp-div h1{
+    width: 87.5%;
+    margin: 1em auto;
+    font-size: 2em;
+    font-family: 'D-DIN Condensed DINCondensed-Bold';
+}
+.IA{
+    background: url(../../images/PA.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 2.5em 0;
+    background-color: black;
+    margin: 0.5em 0;
+}
+.IA-wrp{
+    width: 87.5%;
+    margin: 2em auto;
+    text-align: left;
+}
+.IA-wrp h2{
+    font-family: 'D-DIN DIN-Bold';
+    background-color: #e76f51;
+    display:inline-block;
+    padding: 0.1em;
+    color: black;
+    margin: 0;
+    font-size: 1.25em;
+}
+.IA-wrp h3{
+    margin-top: 0.25em;
+    font-size: 0.75em;
+    font-weight: 200;
+}
+.IB{
+    background: url(../../images/EVC.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 2.5em 0;
+    color: white;
+    background-color: black;
+}
+.dis-wrp{
+    width: 90%;
+    margin: 0 auto;
+}
+.dis-wrp p{
+    font-size: 0.5em;
+}
+
+@media (min-width:300px) and (max-width:900px){
+    .cc-ap-div{
+        flex-direction: column;
+    }
+    .ee-sep-div{
+        flex-direction: column;
+    }
+    .pp-ee{
+        width: 85%;
+        margin: 2.5em auto;
+    }
+    .c-wrp-div{
+        flex-direction: column;
+    }
+    .ee-sep-div div:nth-child(3){
+        border: none;
+        padding: 0;
+        margin: 0;
+    }
+    .sec-wrp-div-ig{
+        flex-direction: column;
+    }
+    .sec-wrp-div-ig div div:nth-child(2){
+        text-align: right;
+    }
+    .sec-con-div{
+        padding: 0;
+    }
+    .sec-ig-div{
+        display: none;
+    }
+    .test-img{
+        display: none;
+    }
+    .pr-wrp-div{
+        padding: 0;
+        margin: 0;
+    }
+    .IA{
+        padding: 0;
+        margin: 0;
+        background-size: cover;
+        background-position: right;
+    }
+    .IB{
+        padding: 0;
+        margin: 0;
+        background-size: cover;
+        background-position: left;
+    }
+    .h1po h1{
+        width: 85%;
+        margin: 0 auto;
+        font-size: 0.75em;
+    }
+    .hp-ee h1{
+        font-size: 1em;
+    }
+    .ee-cn-div h1{
+        font-size: 1em;
+    }
+    .bg-wrp h1{
+        font-size: 1em;
+    }
+    .bg-bg h1{
+        font-size: 1em;
+    }
+    .pp-ee h1{
+        font-size: 1em;
+        font-family: 'D-DIN Condensed DINCondensed-Bold';
+    }
+    .pr-wrp-div h1{
+        font-size: 1em;
+    }
+    .c-wrp-div h2{
+        font-size: 0.55em;
+    }
+    .eu-div-wrap h2{
+        font-size: 1em;
+    }
+}

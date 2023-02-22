@@ -11,6 +11,10 @@ import Home from './pages/home/Home';
 import Projects from './pages/projects/Projects';
 import OurProjects from './pages/ourprojects/OurProjects';
 import Management from './pages/management/Management';
+import Privacy from './pages/privacy/Privacy';
+import Legal from './pages/legal/Legal';
+import Careers from './pages/careers/Careers';
+import Application from './pages/careers/Application';
 
 
 function App() {
@@ -29,8 +33,12 @@ function App() {
           <Route path="/investors/letters" element={<Letters/>}/>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/projects" element={<Projects/>}/>
+          <Route path="/privacy" element={<Privacy/>}/>
+          <Route path="/legal" element={<Legal/>}/>
           <Route path="/projects/ourprojects" element={<OurProjects/>}/>
           <Route path="/about/management" element={<Management/>}/>
+          <Route path="/careers" element={<Careers/>}/>
+          <Route path="/careers/application" element={<Application/>}/>
         </Routes>
       </BrowserRouter>
     </div>

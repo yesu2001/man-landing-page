@@ -29,8 +29,8 @@ function FooterSection() {
       <div className='footer_bottom'>
         <p>© 2022 MAN, Inc. All Rights Reserved.</p>
         <p>
-          <a href='#'>Privacy</a>
-          <a href='#'>Legal</a>
+          <a href='/privacy'>Privacy</a>
+          <a href='/legal'>Legal</a>
         </p>
       </div>
     </div>

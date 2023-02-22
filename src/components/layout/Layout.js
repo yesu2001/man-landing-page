@@ -17,8 +17,9 @@ function Layout({children}) {
               <Link to="/projects" className={activeTab === "projects" ? 'active ':  'navList' } onClick={() => setActiveTab('product')}>Projects</Link>
               <Link to="/investors" className={activeTab === "investors" ? 'active ':  'navList' } onClick={() => setActiveTab('investors')}>Investors</Link>
               <Link to="/media" className={activeTab === "media" ? 'active ':  'navList' } onClick={() => setActiveTab('media')}>Media</Link>
+              <Link to="/careers" className={activeTab === "careers" ? 'active ':  'navList' } onClick={() => setActiveTab('careers')}>Careers</Link>
           </nav>
-          <button className='navbar_contact'>Contact</button>
+          <button className='navbar_contact'><Link to="/contact">Contact</Link></button>
       </div>
       {children}
       <FooterSection />
