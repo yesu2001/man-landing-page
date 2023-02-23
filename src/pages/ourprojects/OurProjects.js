@@ -2,12 +2,14 @@ import React from 'react';
 import './OurProjects.css';
 import { BsDownload } from 'react-icons/bs';
 import { BsPrinter } from 'react-icons/bs';
-import Layout from '../../components/layout/Layout';
+import Navbar from '../../components/navbar/Navbar';
+import FooterSection from '../../components/footerSection/FooterSection';
 import VidUS from '../../videos/US.mp4';
 
 function OurProjects() {
 	return (
-		<Layout>
+		<div>
+        <Navbar/>
 			<section className='main-title-div'>
                 <div className='main-title-div-wrap'>
                     <video src={VidUS} autoPlay muted loop className='videoo' ></video>
@@ -138,7 +140,8 @@ function OurProjects() {
                         <p>Engineering prototype only, Currently not for qualification or production. </p>
                     </div>
                 </section>
-		</Layout>
+                <FooterSection/>
+		</div>
 	)
 }
 

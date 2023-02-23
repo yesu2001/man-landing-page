@@ -4,12 +4,13 @@
 }
 
 .aboutpage_title {
+    margin-top: 10px;
     text-align: center;
+    color: #FF4240;
 }
 .about_page_moto {
-    width: 50%;
+    width: 95%;
     margin: 0 auto;
-    text-align: center;
     padding: 5em 0;
 }
 .about_page_moto > h3 {
@@ -17,17 +18,17 @@
 }
 
 .section {
-    display: flex;
-    padding: 5em 20em;
-    background: white;
+    width: 90%;
+    margin: 0 auto;
+    padding: 5em 0;
 }
 
 .section > h3 {
-    flex: 0.3;
+    padding: 10px 0;
 }
 
 .about_page_commitment ,.section > p{
-    flex: 0.7;
+    width: 90%;
 }
 
 .about_page_commitment > div {
@@ -50,4 +51,45 @@
     margin: 20px 0;
     color: #FF4240;
     font-weight: bold;
+}
+
+
+@media screen and  (min-width:300px) and  (max-width:800px){
+   
+}
+
+
+@media screen and  (min-width:801px) and (max-width:1080px){
+   .section {
+        display: flex;
+    }
+
+    .section > h3 {
+        flex: 0.3;
+    }
+
+    .section > p, .about_page_commitment {
+        flex: 0.7;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and  (min-width:1080px) and (max-width:1400px){
+    .about_page_moto {
+        width: 60%;
+    }
+    .section {
+        display: flex;
+    }
+
+    .section > h3 {
+        flex: 0.3;
+    }
+
+    .section > p, .about_page_commitment {
+        flex: 0.7;
+        display: flex;
+        flex-direction: column;
+    }
 }

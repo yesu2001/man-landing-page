@@ -1,6 +1,7 @@
 import React from 'react'
 import './Careers.css';
-import Layout from '../../components/layout/Layout';
+import Navbar from '../../components/navbar/Navbar';
+import FooterSection from '../../components/footerSection/FooterSection';
 import { useNavigate } from "react-router-dom";
 
 
@@ -25,7 +26,7 @@ function Careers() {
                     navigate('/careers/application',{state:{name:'Product Developement Manager', brief:'A PDM’s main role is to assess the viability of new products and, once in development, ensure that they continue to solve customer problems. To do this, a PDM will carry out market research, liaise directly with customers, closely monitor industry trends, and manage the technical development of the product.', respon:'Creates a prototype of a new product in order to iron out flaws in the final design, Determines the process for creating a new item, Oversees product development amongst a team of individuals, Presents new ideas to corporate executives in order to gain permission to develop product lines, Ensures that every phase of a particular project proceeds as scheduled.', skill:'Has good problem solving abilities, Stays current with the latest trends in merchandise, Keeps up to date with changes in the market and technology that would affect new product development, Is able to meet deadlines.'}});
                     }
   return (
-    <Layout>
+    <div>
         <section className='one-sec-div-main one-img-cvr-div'>
                 <div className='one-sec-div-main-wrap'>
                     <div className='pro-tit-div-wrap'>
@@ -103,8 +104,7 @@ function Careers() {
                     </div>
                 </div>
             </section>
- 
-    </Layout>
+        </div>
   )
 }
 

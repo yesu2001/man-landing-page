@@ -36,7 +36,8 @@
 .footer_nav > li:hover {
     color:white !important;
 }
-
+.footer_middle {
+}
 .footer_bottom {
     display: flex;
     align-items: center;
@@ -49,5 +50,34 @@
 }
 
 .footer_bottom a:hover {
-    color: white;
+    color: grey;
 }
+
+
+
+@media screen and  (min-width:300px) and  (max-width:800px){
+   .contact_section_one {
+    margin: 50px 0;
+   }
+   .contact_section_form input, textarea {
+    width: 450px;
+   }
+}
+
+
+@media screen and  (min-width:801px) and (max-width:1080px){
+   .contact_section_one {
+    margin: 50px 0;
+   }
+   .contact_section_form input, textarea {
+    width: 450px;
+   }
+  }
+  @media screen and  (min-width:108100px) and (max-width:1400px){
+    .contact_section_one {
+    margin: 50px 0;
+   }
+   .contact_section_form input, textarea {
+    width: 500px;
+   }
+  }

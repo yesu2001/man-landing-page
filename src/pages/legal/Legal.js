@@ -1,9 +1,10 @@
 import React from 'react'
-import Layout from '../../components/layout/Layout'
+import Navbar from '../../components/navbar/Navbar';
+import FooterSection from '../../components/footerSection/FooterSection';
 import './Legal.css'
 function Legal() {
   return (
-    <Layout>
+    <div>
         <section className='one-sec-div-main one-img-cvr-div'>
                 <div className='one-sec-div-main-wrap'>
                     <div className='pro-tit-div-wrap'>
@@ -73,7 +74,7 @@ function Legal() {
                         <p>MAN, Inc.</p>
                     </div>
             </section>
-    </Layout>
+    </div>
   )
 }
 

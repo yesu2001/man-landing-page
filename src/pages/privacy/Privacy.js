@@ -1,10 +1,11 @@
 import React from 'react'
-import Layout from '../../components/layout/Layout';
+import Navbar from '../../components/navbar/Navbar';
+import FooterSection from '../../components/footerSection/FooterSection';
 import './Privacy.css';
 
 function Privacy() {
   return (
-    <Layout>
+    <div>
         <section className='one-sec-div-main one-img-cvr-div'>
                 <div className='one-sec-div-main-wrap'>
                     <div className='pro-tit-div-wrap'>
@@ -108,7 +109,7 @@ function Privacy() {
             </section>
             </section>
  
-    </Layout>
+    </div>
   )
 }
 

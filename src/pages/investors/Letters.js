@@ -1,10 +1,10 @@
 import React from 'react'
-import Layout from '../../components/layout/Layout'
+import Navbar from '../../components/navbar/Navbar';
+import FooterSection from '../../components/footerSection/FooterSection';
 import './Investors.css';
 
 function Letters() {
   return (
-    <Layout>
       <div className="Letters">
           <h2>Shareholder's Letter</h2>
           <section>
@@ -42,7 +42,6 @@ function Letters() {
             <span>CEO, MAN,Inc.</span>
           </div>
       </div>
-    </Layout>
   )
 }
 

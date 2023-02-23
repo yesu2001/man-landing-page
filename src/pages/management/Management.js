@@ -1,11 +1,12 @@
 import React from 'react';
 import './Management.css';
-import Layout from '../../components/layout/Layout';
+import Navbar from '../../components/navbar/Navbar';
+import FooterSection from '../../components/footerSection/FooterSection';
 import { ImTwitter, ImLinkedin} from "react-icons/im";
 
 function Management() {
 	return (
-		<Layout>
+		<div>
 			<div className="management">
 				<h2>MANAGEMENT & FOUNDERS</h2>
 				<p>We do everything with our core values of hardwork and trust.</p>
@@ -38,7 +39,7 @@ function Management() {
 					</div>
 				</div>
 			</div>
-		</Layout>
+		</div>
 	)
 }
 

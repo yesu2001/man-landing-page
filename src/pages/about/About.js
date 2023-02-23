@@ -1,5 +1,6 @@
 import React from 'react'
-import Layout from '../../components/layout/Layout'
+import Navbar from '../../components/navbar/Navbar';
+import FooterSection from '../../components/footerSection/FooterSection';
 import { BsFillPersonBadgeFill } from 'react-icons/bs';
 import { HiOutlineLightBulb } from 'react-icons/hi';
 import { ImEarth } from 'react-icons/im';
@@ -12,7 +13,8 @@ import './About.css'
 
 function about() {
   return (
-    <Layout>
+    <React.Fragment>
+      <Navbar/>
       <div className="about_page">
         <h1 className='aboutpage_title'>About Us</h1>
         <div className="about_page_moto">
@@ -24,11 +26,9 @@ function about() {
         </div>
         <div className='section com_bg'>
           <h3>Who we are</h3>
-
           <p>
           MAN commenced its operations in the year 2022, since then the company has periodically incorporated innovative production technologies and updated its methods to match current global standards ensuring over all optimization of its processes.<br/>
 Our firm is designed to operate as one—a single global corporation united by a strong set of values, including a deep commitment to diversity, and a common purpose: to create positive, enduring change in the world.</p>
-
         </div>
         <div className='section'>
           <h3>Management committee</h3>
@@ -55,36 +55,36 @@ The exceptional quality of our workforce provides a valuable competitive edge. T
 <br/>
 We commit to being a good corporate citizen in all the places we operate worldwide. We will maintain high ethical standards, obey all applicable laws, rules, and regulations.</p>
         </div>
-        <div className='section com_bg'>
+                    <div className='section com_bg'>
                         <h3>Our Project Commitment</h3>
                         <div className='about_page_commitment'>
                           <p>Affordable and sustainable energy solutions are required to advance global prosperity. We invest in technology and communities to bring the world better energy</p>
-                      <div>
-                          <h4>Improving energy access</h4>
-                          <HiOutlineLightBulb/>  
-                      </div>
-                      <div>
-                          <h4>Sustainability</h4>
-                          <ImEarth />  
-                      </div>
-                      <div>
-                          <h4>Improving efficiency</h4>
-                          <BsRecycle/>  
-                      </div> 
-                      <div>
-                          <h4>Outreach</h4>
-                          <FaHandshake/>  
-                      </div>
-                      <div>
-                          <h4>Emission Control</h4>
-                          <TbBuildingFactory2/>  
-                      </div>
-                      <div>
-                          <h4>Job Creation</h4>  
-                          <BsFillPersonBadgeFill/>  
+                          <div>
+                              <h4>Improving energy access</h4>
+                              <HiOutlineLightBulb/>  
+                          </div>
+                          <div>
+                              <h4>Sustainability</h4>
+                              <ImEarth />  
+                          </div>
+                          <div>
+                              <h4>Improving efficiency</h4>
+                              <BsRecycle/>  
+                          </div> 
+                          <div>
+                              <h4>Outreach</h4>
+                              <FaHandshake/>  
+                          </div>
+                          <div>
+                              <h4>Emission Control</h4>
+                              <TbBuildingFactory2/>  
+                          </div>
+                          <div>
+                              <h4>Job Creation</h4>  
+                              <BsFillPersonBadgeFill/>  
+                          </div>
                       </div>
                   </div>
-                </div>
                 <div className='section '>
                     <h3>Sustainable Growth.</h3>
                     <p>We are being a responsible and pioneering business. It goes back to the 2022 days of our founders, who launched one of the purposeful brands for the future. And it is how we run our company today.<br/>We strive to do more good for our planet and our society – not just less harm. We want to act on the social and environmental issues facing the world and we want to empower people’s lives with our innovative, sustainable products.<br/>This is how we will grow our business.</p>
@@ -95,7 +95,7 @@ We commit to being a good corporate citizen in all the places we operate worldwi
                     <br/><i>President,</i><br/>MAN, Inc.</p>
                 </div>
         </div>
-    </Layout>
+      </React.Fragment>
   )
 }
 

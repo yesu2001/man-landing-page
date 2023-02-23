@@ -1,5 +1,4 @@
 import React from 'react'
-import Layout from '../../components/layout/Layout'
 import './Investors.css';
 
 import { GoLaw } from 'react-icons/go';
@@ -10,7 +9,6 @@ import { TbWorld } from 'react-icons/tb';
 
 function Principles() {
   return (
-    <Layout>
       <div className="principles">
           <section className="prin_section_one">
             <p>MAN's Management Philosophy is to "devote our human resources and technology to create superior products and services, thereby contributing to a better global society." MAN's code of conduct is the foundation that allows us to create a fair, clean, and transparent corporate culture.</p>
@@ -47,7 +45,6 @@ function Principles() {
             </div>
           </section>
       </div>
-    </Layout>
   )
 }
 

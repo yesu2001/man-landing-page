@@ -1,10 +1,10 @@
 import React from 'react'
-import Layout from '../../components/layout/Layout'
+import Navbar from '../../components/navbar/Navbar';
+import FooterSection from '../../components/footerSection/FooterSection';
 import './Investors.css';
 import {Link} from 'react-router-dom';
 function Investors() {
   return (
-    <Layout>
       <div className="investors">
           <h3>Investors</h3>
           <div className="investors_section">
@@ -35,7 +35,6 @@ function Investors() {
             </div>
           </div>
       </div>
-    </Layout>
   )
 }
 

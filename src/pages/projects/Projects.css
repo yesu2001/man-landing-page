@@ -2,6 +2,7 @@
 	display: flex;
 	flex-direction: column;
 	padding: 50px 0;
+	font-size: 18px;
 }
 
 .Projects>h1 {
@@ -10,14 +11,12 @@
 
 
 .section_one {
-	margin: 40px auto;
-	height: 100vh;
-	padding-top: 100px;
+	width: 90%;
+	margin: 50px auto;
 }
 
 .section_one>p {
-	font-size: 40px;
-	max-width: 1000px;
+	width: 100%;
 }
 
 
@@ -27,41 +26,47 @@
 
 .section_two {
 	display: flex;
-	height: 100vh;
-	background-color: aliceblue;
+	background-image: url('https://images.unsplash.com/photo-1611162242122-da5879b25e55?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNoYXJnaW5nJTIwZXZ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+	background-size: cover;
+	color: white;
+	padding: 50px ;
 }
 
 .section_two_left {
-	flex: 0.5;
-	margin: auto 10px;
+	background-color: rgba(0, 0, 0, 0.4);
+	width: 100%;
+	text-align: center;
 	/* width: 300px; */
 }
 
 .section_two_left>h2 {
-	font-size: 2em;
+	font-size: 1.7em;
 }
 
 .section_two_left>p {
 	padding: 20px 0;
-	width: 70%;
+	color: rgba(255, 255, 255, 0.8);
 	font-size: 1.5em;
 }
 
 .section_two_left>b {
 	width: 70%;
-	font-size: 1.1em;
+	font-size: 1em;
 }
 
-.section_two_left> button {
-	border: 2px solid #FF4240;
-	color: #FF4240;
+.section_two_left button {
+	border:none;
+	color:white;
 	border-radius: 8px;
 	padding: 0.5em 0.5em;
 	margin: 20px 0;
 	font-size: 1.3em;
+	font-weight: bold;
+	background: #FF4240;
 }
 
 .section_two_right {
+	display: none;
 	flex: 0.5;
 	width: 100%;
 	background-image: url('https://images.unsplash.com/photo-1611162242122-da5879b25e55?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNoYXJnaW5nJTIwZXZ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
@@ -72,3 +77,31 @@
 	position: inherit;
 	width: 100vh;
 }
+
+
+@media screen and  (min-width:300px) and  (max-width:800px){
+   .contact_section_one {
+    margin: 50px 0;
+   }
+   .contact_section_form input, textarea {
+    width: 450px;
+   }
+}
+
+
+@media screen and  (min-width:801px) and (max-width:1080px){
+   .contact_section_one {
+    margin: 50px 0;
+   }
+   .contact_section_form input, textarea {
+    width: 450px;
+   }
+  }
+  @media screen and  (min-width:108100px) and (max-width:1400px){
+    .contact_section_one {
+    margin: 50px 0;
+   }
+   .contact_section_form input, textarea {
+    width: 500px;
+   }
+  }

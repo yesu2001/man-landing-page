@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import './AboutSection.css';
+import Navbar from '../../components/navbar/Navbar';
 
 function AboutSection() {
   return (

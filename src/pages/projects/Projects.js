@@ -1,13 +1,16 @@
 import React from 'react'
-import Layout from '../../components/layout/Layout'
+import Navbar from '../../components/navbar/Navbar';
+import FooterSection from '../../components/footerSection/FooterSection';
 import {Link} from 'react-router-dom';
 import './Projects.css';
 
 function Projects() {
+  document.title = 'Projects - MAN.'
   return (
-    <Layout>
+    <div>
+    <Navbar/>
       <div className="Projects">
-        <h1>Our Projects</h1>
+        <h1 className="page_title">Our Projects</h1>
         <div className="section_one">
           <p>
             We’re committed to improving quality of life by meeting the critical needs of society. As the world evolves, so do we, constantly working to meet the changing needs of our customers and stakeholders.
@@ -24,16 +27,16 @@ function Projects() {
               Phase 1: Complete. <br/>
               Phase 2: Currently working with various local governments to consult, advise, and perform research, development, and testing on the viability in their cities.
             </b><br/>
-            <button>
-              <Link to='/projects/ourprojects' className='btn'>Learn more</Link>
-            </button>
+              <Link to='/projects/ourprojects' className='btn'><button>Learn more</button></Link>
+            
           </div>
           <div className="section_two_right">
             {/* <img src="https://images.unsplash.com/photo-1611162242122-da5879b25e55?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNoYXJnaW5nJTIwZXZ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt=""/> */}
           </div>
         </div>
       </div>
-    </Layout>
+      <FooterSection/>
+    </div>
   )
 }
 
