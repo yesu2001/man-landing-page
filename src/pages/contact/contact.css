@@ -70,7 +70,7 @@
     width: 450px;
    }
   }
-  @media screen and  (min-width:108100px) and (max-width:1400px){
+  @media screen and  (min-width:1080px){
     .contact_section_one {
     margin: 50px 0;
    }

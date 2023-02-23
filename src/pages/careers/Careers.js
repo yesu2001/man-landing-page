@@ -27,84 +27,72 @@ function Careers() {
                     }
   return (
     <div>
-        <section className='one-sec-div-main one-img-cvr-div'>
-                <div className='one-sec-div-main-wrap'>
-                    <div className='pro-tit-div-wrap'>
-                        <h1>CAREERS</h1>
-                    </div>
-                </div>
-            </section>
-            <section className='las-sec-div-main pro-pro-pro-div'>
-                <div className='js-div-main-wrap'>
-                    <h1>QUIT YOUR DAY JOB</h1>
-                    <p>It doesn’t matter where you come from, where you went to school or what industry you’re in—if you’ve done exceptional work.</p>
-                    <p>When you work here, you get that our values are more than just words on paper. You’re joining a place where diversity, equity, and inclusion are at the heart of our business practices and culture.</p>
-                    <p>And no matter what office you’re in or what discipline, there are a few things that make us all tick. Being open and taking chances.</p>
-                </div>
-            </section>
-            <section className='las-sec-div-main pro-pro-cvr-div'>
-                <div className='js-div-main-wrap'>
-                    <div className='career-two-content-A'>
-                            <h1>Huge Holidays.</h1>
-                            <p>We close for a week 3x annually, so we can all rest together and truly enjoy the time off.</p>
-                    </div>
-                    <div className='career-two-content-A'>
-                            <h1>Early Fridays.</h1>
-                            <p>We log off at 2pm on Fridays all year long.</p>
-                    </div>
-                    <div className='career-two-content-A'>
-                            <h1>Taking care.</h1>
-                            <p>We know that wellness is both physical and mental, so we have Take Care days when you need them.</p>
-                    </div>
-                </div>
-            </section>
-            <section className='las-sec-div-main'>
-                <div className='int-inv-div-wrap'>
-                    <h2>Be an innovator</h2>
-                    <div>
-                        <p>Interns tackle hands-on projects and design challenges, constantly upending conventions and pushing boundaries.</p>
-                        <p>At MAN, interns are an important part of the team. Whether you sign on for a internship during the academic year, you can work on critical projects. As part of the MAN, you’ll get an insider’s perspective on the way we work and the people who lead us.</p>
-                        <p>Yes, you’ll learn from them, but they expect to learn from you, too.</p>
-                    </div>
-                </div>
-            </section>
-            <hr/>
-            <div className='car-div-main'>
-                    <h1>CAREERS</h1>
-                    <p>We're looking for talented individuals ready to get their hands dirty to make a meaningful impact that will last for generations to come. We are an equal opportunity employer offering competitive salaries, comprehensive health benefits, and equity packages.</p>
-                </div>
-            <hr/>
-            <section>
-                <div className='jo-div-mai'>
-                    <div>
-                        <h1>Engineering</h1>
-                        <div>
-                            <h2 onClick={()=>{toComponentEE()}}>Electrical Engineer</h2>
-                            <h3>Wilmington, DE</h3>
-                        </div>
-                        <div>
-                            <h2 onClick={()=>{toComponentID()}}>Industrial Designer</h2>
-                            <h3>Wilmington, DE</h3>
-                        </div>
-                        <div>
-                            <h2 onClick={()=>{toComponentPME()}}>Prototype Mechanical Engineer</h2>
-                            <h3>Wilmington, DE</h3>
-                        </div>
-                    </div>
-                    <div>
-                        <h1>Operations</h1>
-                        <div>
-                            <h2 onClick={()=>{toComponentAC()}}>Accountant</h2>
-                            <h3>Wilmington, DE</h3>
-                        </div>
-                        <div>
-                            <h2 onClick={()=>{toComponentPDE()}}>Product Devlopment Manager</h2>
-                            <h3>Wilmington, DE</h3>
-                        </div>
-                    </div>
-                </div>
-            </section>
+        <Navbar/>
+        <h1 className='page_title'>CAREERS</h1>
+        <section className='career_section'>
+            <h2>QUIT YOUR DAY JOB</h2>
+            <p>It doesn’t matter where you come from, where you went to school or what industry you’re in—if you’ve done exceptional work.</p>
+            <p>When you work here, you get that our values are more than just words on paper. You’re joining a place where diversity, equity, and inclusion are at the heart of our business practices and culture.</p>
+            <p>And no matter what office you’re in or what discipline, there are a few things that make us all tick. Being open and taking chances.</p>
+        </section>
+        <section className='career_section'>
+            <div className='benefits_section'>
+                    <h3>Huge Holidays.</h3>
+                    <p>We close for a week 3x annually, so we can all rest together and truly enjoy the time off.</p>
+            </div>
+            <div className='benefits_section'>
+                    <h3>Early Fridays.</h3>
+                    <p>We log off at 2pm on Fridays all year long.</p>
+            </div>
+            <div className='benefits_section'>
+                    <h3>Taking care.</h3>
+                    <p>We know that wellness is both physical and mental, so we have Take Care days when you need them.</p>
+            </div>
+        </section>
+        <section className='career_section'>
+            <h2>Be an innovator</h2>
+            <div>
+                <p>Interns tackle hands-on projects and design challenges, constantly upending conventions and pushing boundaries.</p>
+                <p>At MAN, interns are an important part of the team. Whether you sign on for a internship during the academic year, you can work on critical projects. As part of the MAN, you’ll get an insider’s perspective on the way we work and the people who lead us.</p>
+                <p>Yes, you’ll learn from them, but they expect to learn from you, too.</p>
+            </div>
+        </section>
+        <hr/>
+        <div className='career_section'>
+            <h2>CAREERS</h2>
+            <p>We're looking for talented individuals ready to get their hands dirty to make a meaningful impact that will last for generations to come. We are an equal opportunity employer offering competitive salaries, comprehensive health benefits, and equity packages.</p>
         </div>
+        <hr/>
+        <section className='career_section jobs'>
+            <div>
+                <b>Engineering</b>
+                <div>
+                    <h2 onClick={()=>{toComponentEE()}} className="job">Electrical Engineer</h2>
+                    <p>Wilmington, DE</p>
+                </div>
+                <div>
+                    <h2 className="job" onClick={()=>{toComponentID()}}>Industrial Designer</h2>
+                    <p>Wilmington, DE</p>
+                </div>
+                <div>
+                    <h2 className="job" onClick={()=>{toComponentPME()}}>Prototype Mechanical Engineer</h2>
+                    <p>Wilmington, DE</p>
+                </div>
+            </div>
+            <div>
+                <b>Operations</b>
+                <div>
+                    <h2 className="job" onClick={()=>{toComponentAC()}}>Accountant</h2>
+                    <p>Wilmington, DE</p>
+                </div>
+                <div>
+                    <h2 className="job" onClick={()=>{toComponentPDE()}}>Product Devlopment Manager</h2>
+                    <p>Wilmington, DE</p>
+                </div>
+            </div>
+        </section>
+        <FooterSection/>
+    </div>
   )
 }
 

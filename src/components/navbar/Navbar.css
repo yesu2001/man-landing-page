@@ -1,14 +1,14 @@
 
 .Navbar {
-    width: 100vw;
+    margin: 0 auto;
+    width: 98vw;
     padding: 0 15px;
     color: white;
     background: rgba(47, 47, 47, 0.4);
-    border-radius: 16px;
+    border-radius: 5px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(47, 47, 47, 0.3);
     position: sticky;
     top:0;
     z-index: 1;
@@ -101,8 +101,8 @@
    .navList {
     margin: 0 20px;
    }
-  }
-  @media screen and  (min-width:1080px) and (max-width:1500px){
+}
+  @media screen and  (min-width:1080px){
    .navbar_desktop {
     display: flex;
     justify-content: space-between;

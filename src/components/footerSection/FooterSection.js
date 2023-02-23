@@ -5,6 +5,7 @@ import {Link} from 'react-router-dom'
 function FooterSection() {
   return (
     <div className='Footer'>
+      <hr/>
       <div className='footer_top'>
         <div className='footer_logo'>
           <b>MAN</b>

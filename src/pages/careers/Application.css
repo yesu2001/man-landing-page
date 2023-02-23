@@ -1,9 +1,18 @@
-.application{
-    font-size: 30px;
-    font-family: 'D-DIN Regular';
+
+.application_section {
+    font-size: 1em;
+}
+
+.application_section > div {
+    margin: 20px 10px;
+}
+
+.job_name {
+    color: #fb7674;
 }
 .e-form-div{
-    margin: 5em 0;
+    margin: 1em 0;
+    font-size: 1.5em;
 }
 .list-p-info-div{
     width: 50%;
@@ -87,7 +96,8 @@
     border-radius: 5px;
     border: 0.5px solid #5a5a5a;
 }
-.dis-div-wrap button{
+.list-p-info-div button{
+    width: 100%;
     background-color: #e76f51;
     color: white;
     font-size: 0.55em;
@@ -99,7 +109,7 @@
     transition: 0.25s;
     margin-top: 2.5em;
 }
-.dis-div-wrap button:hover{
+.list-p-info-div button:hover{
     transition: 0.25s;
     background-color: #d4664a;
 }
@@ -131,7 +141,11 @@
     color: #5a5a5a;
 }
 
-@media (min-width:300px) and (max-width:900px){
+input[type="checkbox"], input[type="radio"] {
+    margin-right: 10px;
+}
+
+@media (min-width:300px) and (max-width:800px){
     .list-p-info-div{
         width: 90%;
         margin: 0 auto;
@@ -140,5 +154,25 @@
         display: flex;
         flex-direction: column;
         gap: 1em;
+    }
+}
+
+
+@media screen and  (min-width:801px) and (max-width:1080px){
+    .application_section {
+        width: 50%;
+        margin: 50px auto;
+    }
+    .e-form-div {
+        font-size: 2em;
+    }
+}
+@media screen and  (min-width:1080px){
+    .application_section {
+        width: 50%;
+        margin: 50px auto;
+    }
+    .e-form-div {
+        font-size: 2em;
     }
 }

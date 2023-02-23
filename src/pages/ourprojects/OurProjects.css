@@ -1,9 +1,8 @@
 section {
-    font-size: 30px;
     color: black;
+    font-size: 30px;
 }
 .Pro{
-    font-family: 'D-DIN Regular';
     font-size: 30px;
     color: black;
 }
@@ -22,7 +21,9 @@ section {
 }
 .eu-div-wrap{
     width: 87.5%;
-    margin: 0 auto 2.5em auto;
+    margin: auto auto;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
 }
 .eu-div-wrap h2{
     font-size: 2em;
@@ -30,14 +31,13 @@ section {
     
 }
 .h1po{
-    color: black;
     margin: 5em 0;
 }
 .h1po h1{
-    font-weight: 100;
+    font-weight: 500;
     width: 75%;
     margin: 0 auto;
-    font-size: 1.5em;
+    font-size: 20px;
     color: #5a5a5a;
     text-align: center;
 }
@@ -51,7 +51,6 @@ section {
     font-size: 2em;
     color: #5a5a5a;
     text-align: center;
-    font-family: 'Nothing You Could Do', cursive;
 }
 .hp-ee p{
     width: 50%;
@@ -82,7 +81,6 @@ section {
     font-size: 1em;
     width: 75%;
     margin: 0 0 0 0.5em;
-    font-family: 'D-DIN Condensed DINCondensed-Bold';
 }
 .pp-ee{
     width: 50%;
@@ -111,7 +109,6 @@ section {
     font-size: 2em;
     width: 90%;
     margin: 0 auto;
-    font-family: 'Nothing You Could Do', cursive;
     font-weight: bolder;
     border-bottom: 1px solid white;
     padding-bottom: 0.25em;
@@ -167,7 +164,6 @@ section {
     padding: 0 1em;
 }
 .ee-sep-div h3{
-    font-family: 'D-DIN Condensed DINCondensed-Bold';
     font-size: 1em;
     color: #e76f51;
 }
@@ -178,7 +174,6 @@ section {
 }
 .ee-sep-div p span{
     font-size: 5em;
-    font-family: 'Helvetica';
     font-weight: bolder;
     color: white;
 }
@@ -217,27 +212,23 @@ section {
 .sec-con-div h2{
     font-size: 1.5em;
     margin: 0;
-    font-family: 'D-DIN Condensed DINCondensed-Bold';
     display: inline-block;
     background-color: #e76f51;
     color: black;
 }
 .sec-con-div h3{
     font-size: 0.55em;
-    font-family: 'D-DIN DIN-Bold';
     color: black;
 }
 .sec-con-div h3 span{
     font-size: 5em;
     color: #5a5a5a;
-    font-family: 'Helvetica';
     font-weight: bolder;
 }
 .bg-bg h1{
     width: 90%;
     margin: 1em auto;
     font-size: 2em;
-    font-family: 'D-DIN Condensed DINCondensed-Bold';
 }
 .bg-bg p{
     width: 90%;
@@ -255,7 +246,6 @@ section {
 }
 .bg-col div h1{
     font-size: 2em;
-    font-family: 'D-DIN Condensed DINCondensed-Bold';
 }
 .bg-col div p{
     font-size: 0.55em;
@@ -284,7 +274,6 @@ section {
 }
 .c-wrp-div h2{
     font-size: 1em;
-    font-family: 'Nothing You Could Do', cursive;
 }
 
 /**/
@@ -299,7 +288,6 @@ section {
     width: 87.5%;
     margin: 1em auto;
     font-size: 2em;
-    font-family: 'D-DIN Condensed DINCondensed-Bold';
 }
 .IA{
     background: url(../../images/PA.png);
@@ -317,7 +305,6 @@ section {
     text-align: left;
 }
 .IA-wrp h2{
-    font-family: 'D-DIN DIN-Bold';
     background-color: #e76f51;
     display:inline-block;
     padding: 0.1em;
@@ -416,7 +403,6 @@ section {
     }
     .pp-ee h1{
         font-size: 1em;
-        font-family: 'D-DIN Condensed DINCondensed-Bold';
     }
     .pr-wrp-div h1{
         font-size: 1em;

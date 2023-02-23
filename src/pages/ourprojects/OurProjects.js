@@ -9,7 +9,7 @@ import VidUS from '../../videos/US.mp4';
 function OurProjects() {
 	return (
 		<div>
-        <Navbar/>
+            <Navbar/>
 			<section className='main-title-div'>
                 <div className='main-title-div-wrap'>
                     <video src={VidUS} autoPlay muted loop className='videoo' ></video>
@@ -18,17 +18,6 @@ function OurProjects() {
                     </div>
                 </div>
             </section>
-            <div className='stic-bar-top'>
-                <div className='stic-wrp'>
-                    <div>
-                        <h1>USA Project <span>Energy</span></h1>
-                    </div>
-                    <div className='sti-ico'>
-                        <BsPrinter size='20px' className='icon'/>
-                        <BsDownload size='20px' className='icon'/>
-                    </div>
-                </div>
-            </div>
                 <div className='h1po'>
                     <h1>Whether it’s in our neighborhoods or around the world, more people and more goods are moving faster than ever before – by cars, trucks, ships and planes. Meeting global transportation needs while managing emissions requires multiple solutions.</h1>
                 </div>

@@ -1,6 +1,6 @@
 .Footer {
     background: white;
-    padding: 10px 50px;
+    padding: 10px 10px;
     color: #000;
 }
 
@@ -13,7 +13,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
-    margin: 20px 0;;
+    margin: 15px 0;
 }
 
 .footer_logo {
@@ -37,6 +37,8 @@
     color:white !important;
 }
 .footer_middle {
+    display: flex;
+    flex-direction: column;
 }
 .footer_bottom {
     display: flex;
@@ -73,11 +75,15 @@
     width: 450px;
    }
   }
-  @media screen and  (min-width:108100px) and (max-width:1400px){
+  @media screen and  (min-width:1080px) {
     .contact_section_one {
     margin: 50px 0;
    }
    .contact_section_form input, textarea {
     width: 500px;
+   }
+
+   .footer_middle {
+    display: flex;
    }
   }

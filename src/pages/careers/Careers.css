@@ -1,102 +1,57 @@
-.career{
-    font-family: 'D-DIN Regular';
-    font-size: 30px;
+.career_section {
+    padding: 1em;
+    font-size: 1em
 }
 
-.car-div{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-auto-rows: minmax(175px, auto);
-}
-.car-div-wrap{
-    grid-row: 1/5;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.car-wrap-div-txt{
-    width: 87.5%;
-    margin: 0 auto 2.5em auto;
-}
-.car-wrap-div-txt h2{
-    font-size: 1.25em;
-}
-.js-div-main-wrap p{
-    margin-bottom: 0.5em;
+.career_section > div {
+    margin: 20px 0;
 }
 
-
-.int-inv-div-wrap{
-    width: 87.5%;
-    margin: 5em auto;
-}
-.int-inv-div-wrap h2{
-    font-size: 2em;
-    font-family: 'Nothing You Could Do', cursive;
-    color: #5a5a5a;
-}
-.int-inv-div-wrap p{
-    font-size: 0.55em;
-}
-.career hr{
-    width: 87.5%;
-    border: 0.5px solid #e5e5e5;
-}
-.jo-div-mai{
-    width: 87.5%;
-    margin: 1.5em auto 5em auto;
-}
-.jo-div-mai div{
-    margin: 0.5em;
-}
-.jo-div-mai div h1{
-    font-size: 1em;
-    font-family: 'D-DIN DIN-Bold';
-}
-.jo-div-mai div div{
-    width: 75%;
-    display: flex;
-    justify-content: space-between;
-}
-.jo-div-mai div h2{
-    font-size: 0.55em;
-    font-weight: 100;
-    margin: 0;
-    color: #0c92f3;
-    cursor: pointer;
+.career_section b {
     text-decoration: underline;
 }
-.jo-div-mai div h3{
-    font-size: 0.55em;
-    font-weight: 100;
-    margin: 0;
-    color: #5a5a5a;
+.job {
+    color: #FF4240;
+    font-size: 19px;
+    font-weight: 400;
+    cursor: pointer;
 }
-.car-div-main{
-    width: 87.5%;
-    margin: 1.5em auto;
+
+.job:hover {
+    display: inline-block;
+    border-bottom: 1px solid #FF4240;
 }
-.car-div-main h1{
-    font-size: 1.5em;
-    font-family: 'D-DIN DIN-Bold';
+
+.career_section p {
+    /* color: grey; */
+    margin-bottom: 10px;
 }
-.car-div-main p{
-    font-size: 0.55em;
-    color: #5a5a5a;
+
+
+@media screen and  (min-width:300px) and  (max-width:800px){
 }
-@media (min-width:300px) and (max-width:900px){
-    .jo-div-mai div{
-        flex-direction: column;
-        gap: 0.5em;
+ 
+ 
+@media screen and  (min-width:800px) and (max-width:1080px){
+    .career_section {
+        display: flex;
+    }
+    .jobs {
+        display: flex;
+    }
+    .jobs > div {
+        margin-right: 50px;
     }
 }
-@media (min-width:768px) and (max-width:1080px){
-    .one-sec-div-main-wrap{
-      grid-row: 1/8;
+@media screen and  (min-width:1080px){
+    .career_section {
+        margin: 0 50px;
     }
-  }
-  @media (min-width:1081px) and (max-width:1200px){
-    .one-sec-div-main-wrap{
-      grid-row: 1/6;
+    .jobs {
+        display: flex;
     }
-  }
+    .jobs > div {
+        margin-right: 50px;
+    }
+
+}
