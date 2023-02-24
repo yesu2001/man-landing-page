@@ -30,27 +30,27 @@ function Careers() {
         <Navbar/>
         <h1 className='page_title'>CAREERS</h1>
         <section className='career_section'>
-            <h2>QUIT YOUR DAY JOB</h2>
+            <h2 className="section_title">QUIT YOUR DAY JOB</h2>
             <p>It doesn’t matter where you come from, where you went to school or what industry you’re in—if you’ve done exceptional work.</p>
             <p>When you work here, you get that our values are more than just words on paper. You’re joining a place where diversity, equity, and inclusion are at the heart of our business practices and culture.</p>
             <p>And no matter what office you’re in or what discipline, there are a few things that make us all tick. Being open and taking chances.</p>
         </section>
         <section className='career_section'>
             <div className='benefits_section'>
-                    <h3>Huge Holidays.</h3>
+                    <h3 className="section_title">Huge Holidays.</h3>
                     <p>We close for a week 3x annually, so we can all rest together and truly enjoy the time off.</p>
             </div>
             <div className='benefits_section'>
-                    <h3>Early Fridays.</h3>
+                    <h3 className="section_title">Early Fridays.</h3>
                     <p>We log off at 2pm on Fridays all year long.</p>
             </div>
             <div className='benefits_section'>
-                    <h3>Taking care.</h3>
+                    <h3 className="section_title">Taking care.</h3>
                     <p>We know that wellness is both physical and mental, so we have Take Care days when you need them.</p>
             </div>
         </section>
         <section className='career_section'>
-            <h2>Be an innovator</h2>
+            <h2 className="section_title">Be an innovator</h2>
             <div>
                 <p>Interns tackle hands-on projects and design challenges, constantly upending conventions and pushing boundaries.</p>
                 <p>At MAN, interns are an important part of the team. Whether you sign on for a internship during the academic year, you can work on critical projects. As part of the MAN, you’ll get an insider’s perspective on the way we work and the people who lead us.</p>
@@ -59,7 +59,7 @@ function Careers() {
         </section>
         <hr/>
         <div className='career_section'>
-            <h2>CAREERS</h2>
+            <h2 className="section_title">CAREERS</h2>
             <p>We're looking for talented individuals ready to get their hands dirty to make a meaningful impact that will last for generations to come. We are an equal opportunity employer offering competitive salaries, comprehensive health benefits, and equity packages.</p>
         </div>
         <hr/>

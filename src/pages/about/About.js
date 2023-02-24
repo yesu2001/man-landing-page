@@ -95,6 +95,7 @@ We commit to being a good corporate citizen in all the places we operate worldwi
                     <br/><i>President,</i><br/>MAN, Inc.</p>
                 </div>
         </div>
+        <FooterSection/>
       </React.Fragment>
   )
 }

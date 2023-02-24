@@ -15,7 +15,7 @@ import Privacy from './pages/privacy/Privacy';
 import Legal from './pages/legal/Legal';
 import Careers from './pages/careers/Careers';
 import Application from './pages/careers/Application';
-
+import Sustainability from './pages/sustainability/Sustainability'
 
 function App() {
   
@@ -38,6 +38,7 @@ function App() {
           <Route path="/projects/ourprojects" element={<OurProjects/>}/>
           <Route path="/about/management" element={<Management/>}/>
           <Route path="/careers" element={<Careers/>}/>
+          <Route path="/sustainability" element={<Sustainability/>}/>
           <Route path="/careers/application" element={<Application/>}/>
         </Routes>
       </BrowserRouter>

@@ -3,30 +3,33 @@
     height: 100vh;
     background: url('../../images/PA.png');
     background-size: cover;
-    background-repeat: no-repeat;
+    font-size: 18px;
 }
 
 .hero_content {
-    max-width: 400px;
-    position: relative;
-    top: 100px;
-    left: 200px;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .hero_heading {
     margin: 20px 0;
     color: white;
-    font-size: 3em;
+    font-size: 2em;
 }
 .hero_heading > p{
     color:#FF4240;
 }
 
 .hero_subheading {
-    color: #a0a0a0;
+    color: whitesmoke;
     margin: 10px 0;
     line-height: 2;
     font-size: 1.2em;
+    padding: 0 10px;
+
 }
 
 .hero_checkout {
@@ -45,3 +48,23 @@
 .hero_checkout:hover {
     background: #f66260;
 }
+
+
+
+@media screen and  (min-width:800px) and (max-width:1080px){
+    .hero_content {
+        position: absolute;
+        top: 100px;
+        left: 100px;
+        width: 500px;
+    }
+}
+
+@media screen and  (min-width:1080px){
+    .hero_content {
+        position: absolute;
+        top: 100px;
+        left: 100px;
+        width: 500px;
+    }
+} 

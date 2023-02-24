@@ -1,0 +1,30 @@
+.sustainability {
+    font-size: 18px;
+}
+
+.sustain_section {
+    text-align: center;
+    font-size: 1em;
+    margin: 10px 0;
+    padding: 80px 50px;
+
+}
+
+
+.sustain_section>p {
+    padding: 10px 0;
+}
+
+@media screen and  (min-width:800px) and (max-width:1080px){
+    .sustain_section>p {
+        width: 500px;
+        margin: 10px auto;
+    }
+}
+
+@media screen and  (min-width:1080px){
+    .sustain_section>p {
+        width: 500px;
+        margin: 10px auto;
+    }
+} 

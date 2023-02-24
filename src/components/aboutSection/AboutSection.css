@@ -16,6 +16,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+/*    background: rgba(0, 0, 0, 0.6);*/
+    width: 100%;
 }
 
 .about_heading {
@@ -25,9 +27,9 @@
 }
 
 .about_para {
-    padding: 25px 0;
+    padding: 25px 10px;
     line-height: 30px;
-    width: 450px;
+    width: 100%;
     font-weight: 400;
     font-size: 20px;
 }
@@ -65,9 +67,13 @@
 
 
 @media screen and  (min-width:801px) and (max-width:1080px){
-   
+   .about_content {
+        width: 600px;
+    }
   }
 
-@media screen and  (min-width:108100px) and (max-width:1400px){
-
+@media screen and  (min-width:1081px) {
+    .about_content {
+        width: 600px;
+    }
 }

@@ -4,10 +4,9 @@ import './Navbar.css';
 import FooterSection from '../footerSection/FooterSection';
 import {ImMenu} from 'react-icons/im';
 import {ImCross} from 'react-icons/im';
+import { NavLink } from 'react-router-dom';
 
 function Navbar() {
-  const [activeTab,setActiveTab] = useState('home');
-  const [open,setOpen] = useState(true);
   const [showModal, setShowModal] = React.useState(false);
   const modalStyles = {
   position: "fixed",
@@ -18,8 +17,7 @@ function Navbar() {
   background: "black",
   padding: "20px",
   };
-
-
+  
   const handleOpen = () => {
     setShowModal(true)
   }
@@ -27,22 +25,27 @@ function Navbar() {
   const handleClose = () => {
     setShowModal(false)
   }
+
+  let activeStyle = {
+        color: "white"
+  };
+
   return (
     <div className='Navbar'>
         <div className='navbar_desktop'>
             <b className="navbar_logo">MAN</b>
             <nav>
-              <Link to="/" className={activeTab === "home" ? 'active ':  'navList' } onClick={() => setActiveTab('home')}>Home</Link>
-              <Link to="/about" className={activeTab === "about" ? 'active ':  'navList' } onClick={() => setActiveTab('about')}>About Us</Link>
-              <Link to="/projects" className={activeTab === "projects" ? 'active ':  'navList' } onClick={() => setActiveTab('product')}>Projects</Link>
-              <Link to="/investors" className={activeTab === "investors" ? 'active ':  'navList' } onClick={() => setActiveTab('investors')}>Investors</Link>
-              <Link to="/media" className={activeTab === "media" ? 'active ':  'navList' } onClick={() => setActiveTab('media')}>Media</Link>
-              <Link to="/careers" className={activeTab === "careers" ? 'active ':  'navList' } onClick={() => setActiveTab('careers')}>Careers</Link>
+              <NavLink to="/" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Home</NavLink>
+              <NavLink to="/about" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">About Us</NavLink>
+              <NavLink to="/projects" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Projects</NavLink>
+              <NavLink to="/investors" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Investors</NavLink>
+              <NavLink to="/media" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Media</NavLink>
+              <NavLink to="/careers" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Careers</NavLink>
             </nav>
             <Link to="/contact"><button className='navbar_contact'>Contact</button></Link>
         </div>
         <div className="navbar_phone">
-          <b className="navbar_logo">MAN</b>
+          <b className="navbar_logo">MAN</b>NavLink
           <ImMenu onClick={handleOpen}/>
            { showModal && <div className="modal" style={modalStyles}>
             <div className="navbar_phone_header">
@@ -50,12 +53,12 @@ function Navbar() {
               <ImCross onClick={handleClose}/>
             </div>
             <nav>
-              <Link to="/" className={activeTab === "home" ? 'active ':  'navList' } onClick={() => setActiveTab('home')}>Home</Link>
-              <Link to="/about" className={activeTab === "about" ? 'active ':  'navList' } onClick={() => setActiveTab('about')}>About Us</Link>
-              <Link to="/projects" className={activeTab === "projects" ? 'active ':  'navList' } onClick={() => setActiveTab('product')}>Projects</Link>
-              <Link to="/investors" className={activeTab === "investors" ? 'active ':  'navList' } onClick={() => setActiveTab('investors')}>Investors</Link>
-              <Link to="/media" className={activeTab === "media" ? 'active ':  'navList' } onClick={() => setActiveTab('media')}>Media</Link>
-              <Link to="/careers" className={activeTab === "careers" ? 'active ':  'navList' } onClick={() => setActiveTab('careers')}>Careers</Link>
+              <NavLink to="/" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Home</NavLink>
+              <NavLink to="/about" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">About Us</NavLink>
+              <NavLink to="/projects"  style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Projects</NavLink>
+              <NavLink to="/investors" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Investors</NavLink>
+              <NavLink to="/media"  style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Media</NavLink>
+              <NavLink to="/careers" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Careers</NavLink>
             </nav>
             <Link to="/contact"><button className='navbar_contact'>Contact</button></Link>
           </div>}

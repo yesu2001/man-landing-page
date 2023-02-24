@@ -8,7 +8,7 @@ function contact() {
     <div>
         <Navbar/>
         <section className='contact_section'>
-            <h1 className="contact_title">CONTACT</h1>
+            <h1 className="page_title">CONTACT</h1>
             <div className='contact_section_one'>
                 <h3>MAN, Inc.</h3>
                 <b>1007 N Orange St. <br/> 4th Floor Suite<br/> #1377, Wilmington,<br/> DE - 19801.</b><br/>
@@ -16,7 +16,7 @@ function contact() {
                 <p>maninc.co</p>
             </div>
             <div className='contact_section_form'>
-                <h1>WRITE US</h1>
+                <h3 className="section_title">WRITE US</h3>
                 <form method='POST' action='sendmail.php' enctype="multipart/form-data">
                     <input placeholder='Name' name='name' id='name'></input>
                     <input placeholder='Email' name='mail' id='mail'></input>
