@@ -4,6 +4,8 @@ import FooterSection from '../../components/footerSection/FooterSection';
 import './Investors.css';
 
 function Letters() {
+  document.title = 'Letters - MAN.';
+
   return (
       <div className="Letters">
         <Navbar/>

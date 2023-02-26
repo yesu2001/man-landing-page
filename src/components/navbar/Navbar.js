@@ -45,7 +45,7 @@ function Navbar() {
             <Link to="/contact"><button className='navbar_contact'>Contact</button></Link>
         </div>
         <div className="navbar_phone">
-          <b className="navbar_logo">MAN</b>NavLink
+          <b className="navbar_logo">MAN</b>
           <ImMenu onClick={handleOpen}/>
            { showModal && <div className="modal" style={modalStyles}>
             <div className="navbar_phone_header">

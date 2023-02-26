@@ -7,6 +7,8 @@ import FooterSection from '../../components/footerSection/FooterSection';
 import VidUS from '../../videos/US.mp4';
 
 function OurProjects() {
+  document.title = 'US Projects- MAN.';
+
 	return (
 		<div>
             <Navbar/>

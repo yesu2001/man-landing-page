@@ -30,7 +30,7 @@ function Careers() {
         <Navbar/>
         <h1 className='page_title'>CAREERS</h1>
         <section className='career_section'>
-            <h2 className="section_title">QUIT YOUR DAY JOB</h2>
+            <h2 className="section_title">Quit your Job Today</h2>
             <p>It doesn’t matter where you come from, where you went to school or what industry you’re in—if you’ve done exceptional work.</p>
             <p>When you work here, you get that our values are more than just words on paper. You’re joining a place where diversity, equity, and inclusion are at the heart of our business practices and culture.</p>
             <p>And no matter what office you’re in or what discipline, there are a few things that make us all tick. Being open and taking chances.</p>
@@ -59,7 +59,7 @@ function Careers() {
         </section>
         <hr/>
         <div className='career_section'>
-            <h2 className="section_title">CAREERS</h2>
+            <h2 className="section_title">Careers</h2>
             <p>We're looking for talented individuals ready to get their hands dirty to make a meaningful impact that will last for generations to come. We are an equal opportunity employer offering competitive salaries, comprehensive health benefits, and equity packages.</p>
         </div>
         <hr/>

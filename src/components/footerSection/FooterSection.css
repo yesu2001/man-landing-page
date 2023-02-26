@@ -1,7 +1,7 @@
 .Footer {
-    background: white;
+    color: white;
     padding: 10px 10px;
-    color: #000;
+    background: rgba(0, 0, 0, 0.9);
     font-size: 15px !important;
 }
 
@@ -44,8 +44,15 @@
 .footer_bottom {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 10px 10px;
+    justify-content: space-around;
+    padding: 5px 10px;
+    color: white !important;
+}
+
+.footer_bottom > p {
+    display: flex;
+    align-items: center;
+    font-size: 1em;;
 }
 
 .footer_bottom a {

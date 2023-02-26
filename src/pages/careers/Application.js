@@ -7,23 +7,24 @@ import FooterSection from '../../components/footerSection/FooterSection';
 export default function Application(){
 
     const location = useLocation();
-
+    document.title = 'Application - MAN.';
+    
 
     return(
         <div className='application'>
             <Navbar/>
-            <h1 className='page_title'>APPLICATION <br/><span className="job_name">{location.state.name}</span></h1>
+            <h1 className='page_title'>APPLICATION <br/><h3 className="job_name">{location.state.name}</h3></h1>
             <section className='application_section'>
                 <div>
-                    <h1>Job Brief</h1>
+                    <h3 className='section_title'>Job Brief</h3>
                     <p>{location.state.brief}</p>
                 </div>
                 <div>
-                    <h1>Responsibilities</h1>
+                    <h3 className='section_title'>Responsibilities</h3>
                     <p>{location.state.respon}</p>
                 </div>
                 <div>
-                    <h1>Requirements and skills</h1>
+                    <h3 className='section_title'>Requirements and skills</h3>
                     <p>{location.state.skill}</p>
                 </div>
             </section>
@@ -77,7 +78,7 @@ export default function Application(){
                         <p>3. I understand that no supervisor or manager may alter or amend the above conditions except in writing, signed by a company officer.</p>
                         <div className='wrap-list-ack'>
                             <label>Are you a former/current intern?</label>
-                            <div>
+                            <div> 
                                 <p><input type={'radio'} name="choice-radio"/>Yes</p>
                                 <p><input type={'radio'} name="choice-radio"/>No</p>
                             </div>

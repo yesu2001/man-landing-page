@@ -35,6 +35,9 @@
 @media screen and  (min-width:800px) and (max-width:1080px){
     .career_section {
         display: flex;
+        flex-direction: column;
+        margin: 0 50px;
+        padding: 20px 200px;
     }
     .jobs {
         display: flex;
@@ -46,6 +49,7 @@
 @media screen and  (min-width:1080px){
     .career_section {
         margin: 0 50px;
+        padding: 20px 300px;
     }
     .jobs {
         display: flex;

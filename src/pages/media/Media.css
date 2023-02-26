@@ -1,15 +1,10 @@
 .media_section {
-    width: 90%;
-    margin: 0 auto;
-    padding: 5em 0;
+    padding: 4em 0;
+    padding: 20px;
 }
 
-.media_section > h1 {
-    font-size: 1.3em;
-}
 
 .media_section > p {
-    font-weight: 500;
     margin: 10px 0;
 }
 
@@ -22,16 +17,14 @@ hr {
     width: 95%;
 }
 
-
-@media screen and  (min-width:300px) and  (max-width:800px){
-   
-}
-
-
 @media screen and  (min-width:801px) and (max-width:1080px){
-
+    .media_section {
+        padding: 20px 200px;
+    }
 }
 
-@media screen and  (min-width:1080px) and (max-width:1400px){
-    
+@media screen and  (min-width:1081px) {
+    .media_section {
+        padding: 20px 300px;
+    }
 }

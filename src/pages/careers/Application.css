@@ -1,12 +1,16 @@
 
 .application_section {
     font-size: 1em;
+    margin-top: 50px;
 }
 
 .application_section > div {
-    margin: 20px 10px;
+    margin: 20px 20px;
+    text-align: center;
 }
-
+hr {
+    margin: 20px 0;
+}
 .job_name {
     color: #fb7674;
 }
@@ -24,6 +28,7 @@
     padding: 0.75em 7.5em 0.75em 1em;
     border-radius: 5px;
     border: 0.5px solid #5a5a5a;
+    width: 80%;
 }
 .list-res{
     display: flex;
@@ -67,7 +72,7 @@
 }
 .wrap-list-ack div{
     display: flex;
-    gap: 1.5em;
+    align-items: center;
 }
 .dis-div-wrap{
     width: 90%;
@@ -82,7 +87,7 @@
 }
 .disc-div-sel{
     display: flex;
-    gap: 2.5em;
+    gap: 1.5em;
     margin-top: 1.5em;
 }
 .disc-div-sel div{
@@ -143,7 +148,9 @@
 
 input[type="checkbox"], input[type="radio"] {
     margin-right: 10px;
+    align-items: center;
 }
+
 
 @media (min-width:300px) and (max-width:800px){
     .list-p-info-div{
@@ -165,6 +172,17 @@ input[type="checkbox"], input[type="radio"] {
     }
     .e-form-div {
         font-size: 2em;
+    }
+
+    
+    .list-p-inf-wrap{
+        display: flex;
+        gap: 1em;
+        margin-bottom: 1em;
+    }
+
+    .disc-div-sel {
+        flex-direction: column;
     }
 }
 @media screen and  (min-width:1080px){

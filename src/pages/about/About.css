@@ -1,5 +1,4 @@
 .about_page {
-    font-size: 18px;
     background-color: white;
 }
 
@@ -10,28 +9,37 @@
 }
 .about_page_moto {
     width: 95%;
+    text-align: center;
     margin: 0 auto;
     padding: 5em 0;
 }
-.about_page_moto > h3 {
+.about_page_moto > h1 {
     margin-bottom: 15px;
 }
 
+
 .section {
-    width: 90%;
-    margin: 0 auto;
-    padding: 5em 0;
+    width: 100%;
+    padding: 5em 1em;
+    text-align: center;
 }
 
 .section > h3 {
     padding: 10px 0;
 }
 
-.about_page_commitment ,.section > p{
-    width: 90%;
+.section > p {
+    margin: 15px 0;
 }
 
-.about_page_commitment > div {
+.section_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_list > div {
     width: 350px;
     display: flex;
     align-items: center;
@@ -40,7 +48,6 @@
     margin: 10px 0;
     padding: 10px 20px;
     background: white;
-    font-size: 1em;
 }
 
 .com_bg {
@@ -54,42 +61,45 @@
 }
 
 
-@media screen and  (min-width:300px) and  (max-width:800px){
-   
-}
-
-
 @media screen and  (min-width:801px) and (max-width:1080px){
-   .section {
-        display: flex;
-    }
-
-    .section > h3 {
-        flex: 0.3;
-    }
-
-    .section > p, .about_page_commitment {
-        flex: 0.7;
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-@media screen and  (min-width:1080px) and (max-width:1400px){
     .about_page_moto {
         width: 60%;
+        text-align: center;
     }
     .section {
-        display: flex;
+        width: 60%;
+        text-align: center;
+        margin: 0 auto;
     }
 
-    .section > h3 {
-        flex: 0.3;
+    .section_title {
+        padding: 10px 0;
     }
 
-    .section > p, .about_page_commitment {
-        flex: 0.7;
+    .section_list {
         display: flex;
         flex-direction: column;
     }
+}
+
+@media screen and  (min-width:1080px){
+    .about_page_moto {
+        width: 60%;
+        text-align: center;
+    }
+    .section {
+        width: 60%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .section_title {
+        padding: 10px 0;
+    }
+
+    .section_list {
+        display: flex;
+        flex-direction: column;
+    }
+    
 }

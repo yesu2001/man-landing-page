@@ -10,6 +10,8 @@ import { TbWorld } from 'react-icons/tb';
 
 
 function Principles() {
+  document.title = 'Principles - MAN.';
+
   return (
       <div className="principles">
         <Navbar/>

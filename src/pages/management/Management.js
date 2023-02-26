@@ -5,6 +5,7 @@ import FooterSection from '../../components/footerSection/FooterSection';
 import { ImTwitter, ImLinkedin} from "react-icons/im";
 
 function Management() {
+	document.title = 'Management- MAN.';
 	return (
 		<div>
 			<div className="management">

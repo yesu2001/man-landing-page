@@ -4,6 +4,7 @@ import Navbar from '../../components/navbar/Navbar';
 import FooterSection from '../../components/footerSection/FooterSection';
 
 function Sustainability () {
+	document.title = 'Sustainability - MAN.';
 	return (
 		<div className="sustainability">
 			<Navbar/>

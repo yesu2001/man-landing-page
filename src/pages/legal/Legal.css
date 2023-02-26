@@ -1,27 +1,24 @@
-@import url('https://fonts.cdnfonts.com/css/d-din');
 
-.legal{
-    font-family: 'D-DIN', sans-serif;
-    font-size: 30px;
+.section_legal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: 1em;
 }
-.leg-con-div{
-    width: 87.5%;
-    margin: 2.5em auto;
-}
-.leg-con-div p{
-    font-size: 0.55em;
-}
-.leg-con-div h1{
-    font-size: 1.25em;
+
+.section_legal p{
+  padding: 5px 0;
 }
 
 @media (min-width:768px) and (max-width:1080px){
-    .one-sec-div-main-wrap{
-      grid-row: 1/8;
-    }
+    .section_legal {
+      padding: 20px 200px;
+    };
   }
-  @media (min-width:1081px) and (max-width:1200px){
-    .one-sec-div-main-wrap{
-      grid-row: 1/6;
-    }
+  @media (min-width:1081px){
+    .section_legal {
+      padding: 20px 300px;
+    };
   }
