@@ -1,5 +1,5 @@
 import './Application.css';
-
+import React from 'react';
 import {useLocation} from 'react-router-dom';
 import Navbar from '../../components/navbar/Navbar';
 import FooterSection from '../../components/footerSection/FooterSection';
@@ -9,6 +9,9 @@ export default function Application(){
     const location = useLocation();
     document.title = 'Application - MAN.';
     
+    React.useEffect(() => {
+        window.scrollTo(0,0);
+    },[]) 
 
     return(
         <div className='application'>

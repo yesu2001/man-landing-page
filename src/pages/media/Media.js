@@ -3,6 +3,9 @@ import Navbar from '../../components/navbar/Navbar';
 import FooterSection from '../../components/footerSection/FooterSection';
 import './Media.css'
 function Media() {
+    React.useEffect(() => {
+        window.scrollTo(0,0);
+    },[])
   document.title = 'Media - MAN.';
   return (
     <div>

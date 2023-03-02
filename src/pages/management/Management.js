@@ -7,6 +7,9 @@ import { Link } from 'react-router-dom';
 
 function Management() {
 	document.title = 'Management- MAN.';
+	React.useEffect(() => {
+        window.scrollTo(0,0);
+    },[])
 	return (
 		<div className="management">
 			<Navbar/>

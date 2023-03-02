@@ -9,8 +9,11 @@ import sustainimg from '../../images/sustain.jpg';
 import purposeimg from '../../images/purpose.jpg';
 import aboutimg from '../../images/about.jpg';
 
-function home() {
+function Home() {
   document.title = 'Home - MAN.';
+  React.useEffect(() => {
+    window.scrollTo(0,0);
+  },[])
   return (
     <div className="home">
       <Navbar/>
@@ -71,4 +74,4 @@ function home() {
   )
 }
 
-export default home
+export default Home

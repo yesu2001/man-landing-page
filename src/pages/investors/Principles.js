@@ -11,7 +11,9 @@ import { TbWorld } from 'react-icons/tb';
 
 function Principles() {
   document.title = 'Principles - MAN.';
-
+  React.useEffect(() => {
+    window.scrollTo(0,0);
+},[])
   return (
       <div className="principles">
         <Navbar/>

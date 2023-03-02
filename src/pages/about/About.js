@@ -11,8 +11,11 @@ import { HiArrowLongRight } from 'react-icons/hi2';
 import { Link } from 'react-router-dom';
 import './About.css'
 
-function about() {
+function About() {
   document.title = 'About - MAN.';
+  React.useEffect(() => {
+    window.scrollTo(0,0);
+},[])
   return (
     <div>
       <Navbar/>
@@ -42,7 +45,7 @@ Mounesh Kumar joined the Management Committee as President in 2022. MK is a memb
         <div className='section com_bg'>
           <h2 className='section_title'>Our commitment</h2>
           <p>
-          We are dedicated to managing our firm and working with our clients in ways that benefit individuals, communities, and the environments they live in.<br/>We will reach net-zero climate impact by 2030 through decarbonizing our operations, investing in natural climate solutions, and accelerating progress through partnerships.<br/>
+          We are dedicated to managing our firm and working with our clients in ways that benefit individuals, communities, and the environments they live in.We will reach net-zero climate impact by 2030 through decarbonizing our operations, investing in natural climate solutions, and accelerating progress through partnerships.
 We have a deep and longstanding commitment to advancing diversity, equity, and inclusion in business, in society, and within our firm.
           </p>
         </div>
@@ -50,9 +53,9 @@ We have a deep and longstanding commitment to advancing diversity, equity, and i
           <h2 className='section_title'>Our guiding principles</h2>
           <p>We are committed to enhancing the long-term value of the investment dollars entrusted to us by our shareholders. By running the business responsibly, we expect our shareholders to be rewarded with superior returns.
 Success depends on our ability to consistently satisfy ever-changing customer preferences. We commit to being innovative and responsive, while offering high-quality products and services.
-<br/>
+
 The exceptional quality of our workforce provides a valuable competitive edge. To build on this advantage, we will strive to hire and retain the most qualified people.
-<br/>
+
 We commit to being a good corporate citizen in all the places we operate worldwide. We will maintain high ethical standards, obey all applicable laws, rules, and regulations.</p>
         </div>
         <div className='section com_bg'>
@@ -87,7 +90,7 @@ We commit to being a good corporate citizen in all the places we operate worldwi
         </div>
         <div className='section'>
             <h2 className='section_title'>Sustainable Growth.</h2>
-            <p>We are being a responsible and pioneering business. It goes back to the 2022 days of our founders, who launched one of the purposeful brands for the future. And it is how we run our company today.<br/>We strive to do more good for our planet and our society – not just less harm. We want to act on the social and environmental issues facing the world and we want to empower people’s lives with our innovative, sustainable products.<br/>This is how we will grow our business.</p>
+            <p>We are being a responsible and pioneering business. It goes back to the 2022 days of our founders, who launched one of the purposeful brands for the future. And it is how we run our company today.We strive to do more good for our planet and our society – not just less harm. We want to act on the social and environmental issues facing the world and we want to empower people’s lives with our innovative, sustainable products.This is how we will grow our business.</p>
         </div>
         <div className='section com_bg'>
             <h2 className='section_title'>Connect with us.</h2>
@@ -100,4 +103,4 @@ We commit to being a good corporate citizen in all the places we operate worldwi
   )
 }
 
-export default about
+export default About

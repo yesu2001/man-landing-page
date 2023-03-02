@@ -107,6 +107,10 @@
         padding: 20px 300px;
     }
 
+    .investors_section p {
+        margin: 20px 0;
+    }
+
     .letter_section,.ceo_sign {
        padding: 50px 300px;
        margin: 30px 0;

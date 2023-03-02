@@ -7,6 +7,9 @@ import { useNavigate } from "react-router-dom";
 
 function Careers() {
     document.title = 'Careers - MAN.'
+    React.useEffect(() => {
+        window.scrollTo(0,0);
+    },[])
 
     const navigate = useNavigate();
 
@@ -31,11 +34,11 @@ function Careers() {
         <h1 className='page_title'>Careers</h1>
         <section className='career_section'>
             <h2 className="section_title">Quit your Job Today</h2>
-            <p>It doesn’t matter where you come from, where you went to school or what industry you’re in—if you’ve done exceptional work.</p>
+            <p>It doesn’t matter where you come from, where you went to school or what industry you’re in if you’ve done exceptional work.</p>
             <p>When you work here, you get that our values are more than just words on paper. You’re joining a place where diversity, equity, and inclusion are at the heart of our business practices and culture.</p>
             <p>And no matter what office you’re in or what discipline, there are a few things that make us all tick. Being open and taking chances.</p>
         </section>
-        <section className='career_section'>
+        <section className='career_section com_bg'>
             <div className='benefits_section'>
                     <h3 className="section_title">Huge Holidays.</h3>
                     <p>We close for a week 3x annually, so we can all rest together and truly enjoy the time off.</p>

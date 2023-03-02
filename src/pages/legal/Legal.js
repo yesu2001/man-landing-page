@@ -3,6 +3,9 @@ import Navbar from '../../components/navbar/Navbar';
 import FooterSection from '../../components/footerSection/FooterSection';
 import './Legal.css'
 function Legal() {
+    React.useEffect(() => {
+        window.scrollTo(0,0);
+    },[])
   document.title = 'Legal - MAN.';
   return (
     <div className="legal">

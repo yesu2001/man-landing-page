@@ -5,6 +5,9 @@ import './Privacy.css';
 
 function Privacy() {
   document.title = 'Privacy - MAN.';
+  React.useEffect(() => {
+    window.scrollTo(0,0);
+    },[])
   return (
     <div className='privacy'>
         <Navbar/>

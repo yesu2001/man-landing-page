@@ -6,8 +6,12 @@ import {ImLocation2} from 'react-icons/im'
 import {ImSphere} from 'react-icons/im'
 import {ImMail2} from 'react-icons/im'
 
-function contact() {
+function Contact() {
     document.title = 'Contact - MAN.'
+    React.useEffect(() => {
+        window.scrollTo(0,0);
+    },[])
+
   return (
     <div>
         <Navbar/>
@@ -45,4 +49,4 @@ function contact() {
   )
 }
 
-export default contact
+export default Contact

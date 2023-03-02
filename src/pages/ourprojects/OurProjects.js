@@ -8,6 +8,9 @@ import VidUS from '../../videos/US.mp4';
 
 function OurProjects() {
   document.title = 'US Projects- MAN.';
+  React.useEffect(() => {
+    window.scrollTo(0,0);
+},[])
 
 	return (
 		<div>

@@ -29,15 +29,17 @@
 .hero_heading > p {
   color: var(--primary);;
 }
+
 .hero_checkout {
   background: var(--primary);;
   border: none;
   color: white;
   border-radius: 8px;
   padding: 5px 10px;
-  font-size: 1.5em;
+  font-size: 1.2em;
   cursor: pointer;
 }
+
 .hero_subheading {
   width: 90%;
   margin: 30px 0;
@@ -208,13 +210,13 @@
 .hero_section_content {
   width: 50%;
   position: absolute;
-  top: 50px;
-  left: 200px;
+  top: 20px;
+  left: 100px;
   text-align: left;
 }
 
 .hero_subheading {
   width: 50%;
-  margin: 30px 0;
+  margin: 20px 0;
 }
 }

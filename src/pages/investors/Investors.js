@@ -6,13 +6,16 @@ import {Link} from 'react-router-dom';
 
 function Investors() {
   document.title = 'Investors - MAN.';
+  React.useEffect(() => {
+    window.scrollTo(0,0);
+  },[])
   return (
       <div className="investors">
           <Navbar/>
           <h1 className='page_title'>Investors</h1>
           <div className="investors_section">
             <h2 className='section_title'>Letter to Shareholders</h2>
-            <p>In 2022, as the Covid-19 pandemic persisted throughout the year, multiple uncertainties. In addition, we faced challenges on setting up the business environment. MAN recognizes sustainability management as a fundamental value and core aspect of our business, and we are devoted to fulfilling our social responsibilities as a global corporate citizen.br/>
+            <p>In 2022, as the Covid-19 pandemic persisted throughout the year, multiple uncertainties. In addition, we faced challenges on setting up the business environment. MAN recognizes sustainability management as a fundamental value and core aspect of our business, and we are devoted to fulfilling our social responsibilities as a global corporate citizen.
             The Company persevered and set on target & total commitment of our employees and partners.</p>
             <Link to="/investors/letters" className='link'>Learn more</Link>
           </div>

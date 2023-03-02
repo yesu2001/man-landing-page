@@ -5,6 +5,9 @@ import FooterSection from '../../components/footerSection/FooterSection';
 
 function Sustainability () {
 	document.title = 'Sustainability - MAN.';
+	React.useEffect(() => {
+        window.scrollTo(0,0);
+    },[])
 	return (
 		<div className="sustainability">
 			<Navbar/>
