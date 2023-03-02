@@ -28,7 +28,7 @@ function Careers() {
   return (
     <div>
         <Navbar/>
-        <h1 className='page_title'>CAREERS</h1>
+        <h1 className='page_title'>Careers</h1>
         <section className='career_section'>
             <h2 className="section_title">Quit your Job Today</h2>
             <p>It doesn’t matter where you come from, where you went to school or what industry you’re in—if you’ve done exceptional work.</p>

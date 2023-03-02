@@ -1,18 +1,22 @@
 .about_page {
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .aboutpage_title {
     margin-top: 10px;
     text-align: center;
-    color: #FF4240;
+    color: var(--primary);
 }
 .about_page_moto {
-    width: 95%;
+    background: aliceblue;
     text-align: center;
-    margin: 0 auto;
-    padding: 5em 0;
+    padding: 6em 0;
 }
+
 .about_page_moto > h1 {
     margin-bottom: 15px;
 }
@@ -22,6 +26,7 @@
     width: 100%;
     padding: 5em 1em;
     text-align: center;
+    margin: 5em 0;
 }
 
 .section > h3 {
@@ -29,7 +34,7 @@
 }
 
 .section > p {
-    margin: 15px 0;
+    margin: 30px 0;
 }
 
 .section_list {
@@ -44,53 +49,50 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-left: 3px solid black;
+    border-left: 3px solid var(--primary);
     margin: 10px 0;
     padding: 10px 20px;
     background: white;
 }
 
 .com_bg {
-    background-color: #f3f6f5 !important;
+    background: #F3F6F5;
 }
 
 .btn {
     margin: 20px 0;
-    color: #FF4240;
+    color: var(--primary);
     font-weight: bold;
 }
 
 
 @media screen and  (min-width:801px) and (max-width:1080px){
     .about_page_moto {
-        width: 60%;
         text-align: center;
+        padding: 100px 250px;
     }
     .section {
-        width: 60%;
-        text-align: center;
-        margin: 0 auto;
-    }
-
-    .section_title {
-        padding: 10px 0;
+        padding: 20px 300px;
     }
 
     .section_list {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .section_list > div {
+        margin: 10px 10px;
     }
 }
 
 @media screen and  (min-width:1080px){
     .about_page_moto {
-        width: 60%;
         text-align: center;
+        padding: 100px 350px;
     }
     .section {
-        width: 60%;
-        text-align: center;
-        margin: 0 auto;
+        padding: 80px 300px;
     }
 
     .section_title {
@@ -99,7 +101,13 @@
 
     .section_list {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    .section_list > div {
+        margin: 20px 30px;
     }
     
 }

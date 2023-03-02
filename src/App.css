@@ -1,20 +1,33 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-2');
+
 body {
     font-size: 18px;
+    font-family: 'Helvetica 45 Light', sans-serif;
+    /* font-family: 'Imbue', serif; */
+                                                
+}
+:root {
+    --primary: #E76F51;
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 h3 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
+}
+
+h4 {
+    /* font-size: 1.2em; */
 }
 p {
-    font-size: 1.2em;
+    font-size: 1.2rem;
+    line-height: 2em;
 }
 a {
     text-decoration: none;
@@ -24,7 +37,7 @@ li {
 }
 
 .page_title {
-    color: #FF4240;
+    color:var(--primary);
     text-align: center;
     font-size: 1.7em;
     margin-top: 30px;
@@ -37,3 +50,4 @@ li {
 .section_title {
     color: darkslategrey;
 }
+

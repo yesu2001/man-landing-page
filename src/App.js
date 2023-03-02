@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 // import { ImHome } from 'react-icons/im';
@@ -20,6 +21,9 @@ import Sustainability from './pages/sustainability/Sustainability'
 function App() {
   
   document.title = 'MAN - Home';
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  },[])
 
   return (
     <div className="App">

@@ -2,7 +2,6 @@
     color: white;
     padding: 10px 10px;
     background: rgba(0, 0, 0, 0.9);
-    font-size: 15px !important;
 }
 
 .Footer > p {
@@ -25,9 +24,6 @@
     margin-top: 10px;
 }
 
-.footer_logo > b {
-    font-size: 20px;
-}
 
 .footer_nav > li {
     cursor: pointer;
@@ -49,10 +45,9 @@
     color: white !important;
 }
 
-.footer_bottom > p {
+.footer_bottom > div {
     display: flex;
     align-items: center;
-    font-size: 1em;;
 }
 
 .footer_bottom a {
@@ -61,6 +56,10 @@
 
 .footer_bottom a:hover {
     color: grey;
+}
+
+.white_icon {
+    color: white;;
 }
 
 

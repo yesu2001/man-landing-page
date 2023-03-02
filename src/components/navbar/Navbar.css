@@ -1,14 +1,30 @@
 
 .Navbar {
     color: white;
-    background: rgba(0, 0, 0, 0.8);
+    background: var(--primary);
+    /* background: rgba(0, 0, 0, 0.8); */
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     position: sticky;
     top:0;
     z-index: 1;
-    height: 45px;
+    height: 50px;
     padding: 5px 15px;
+}
+
+.main-header-wrap {
+    color: white;
+}
+
+.main-header-wrap h1{
+    font-family: 'Imbue', serif;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-top: 0.5px solid white;
+    border-bottom: 0.5px solid white;
+}
+.main-header-wrap span{
+    color: #C0C0C0;
 }
 
 
@@ -62,7 +78,7 @@
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
-    color: #FF4240;
+    color: var(--primary);
     padding: 0 10px;
     margin: 20px 0;
     cursor: pointer;
@@ -72,7 +88,7 @@
     color: white;
     font-weight: 500;
     margin: 15px 0;
-    border-bottom: 2px solid #FF4240;
+    border-bottom: 2px solid var(--primary);
 }
 
 
@@ -106,9 +122,8 @@
   @media screen and  (min-width:1080px){
    .navbar_desktop {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    width: 97vw;
+    justify-content: space-between;
    } 
 
    .navList {

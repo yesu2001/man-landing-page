@@ -1,25 +1,42 @@
-.management {
-	margin: 50px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
+.management  > p {
+	padding: 20px 10px;
+	text-align: center;
+}	
 
-.management > h2, .management>p {
-	padding: 10px 0;
-}
+
 
 
 .management_section {
-	padding: 20px 10px;
+	width: 100%;
+    padding: 2em 1em;
+}
+
+.management_section > span {
+	color: #585858;
+}
+
+.management_section > p {
+	padding: 10px 0;
 }
 
 .social_icons {
-	margin: 10px 0;
+	margin: 5px 0;
 }
 
-.social_icons>a {
-	margin-right: 20px;
+.icon {
+	color: black;
+	margin: 0 10px;
 }
 
+
+
+@media screen and  (min-width:801px) and (max-width:1080px){
+    
+}
+
+@media screen and  (min-width:1080px){
+    .management_section {
+		padding: 3em 15em;
+	}
+    
+}

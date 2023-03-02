@@ -33,11 +33,10 @@ function Navbar() {
   return (
     <div className='Navbar'>
         <div className='navbar_desktop'>
-            <b className="navbar_logo">MAN</b>
+          <Link to={'/'}  className="main-header-wrap"><h1><span>MA</span>N</h1></Link>
             <nav>
-              <NavLink to="/" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Home</NavLink>
               <NavLink to="/about" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">About Us</NavLink>
-              <NavLink to="/projects" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Projects</NavLink>
+              <NavLink to="/projects/ourprojects" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Projects</NavLink>
               <NavLink to="/investors" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Investors</NavLink>
               <NavLink to="/media" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Media</NavLink>
               <NavLink to="/careers" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Careers</NavLink>
@@ -45,7 +44,7 @@ function Navbar() {
             <Link to="/contact"><button className='navbar_contact'>Contact</button></Link>
         </div>
         <div className="navbar_phone">
-          <b className="navbar_logo">MAN</b>
+          <Link to={'/'} className="main-header-wrap"><h1><span>MA</span>N</h1></Link>
           <ImMenu onClick={handleOpen}/>
            { showModal && <div className="modal" style={modalStyles}>
             <div className="navbar_phone_header">
@@ -53,7 +52,6 @@ function Navbar() {
               <ImCross onClick={handleClose}/>
             </div>
             <nav>
-              <NavLink to="/" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Home</NavLink>
               <NavLink to="/about" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">About Us</NavLink>
               <NavLink to="/projects"  style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Projects</NavLink>
               <NavLink to="/investors" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Investors</NavLink>

@@ -7,7 +7,7 @@
 }
 
 .link {
-    color: #FF4240;
+    color: var(--primary);
     font-weight: 500;
 }
 
@@ -15,29 +15,35 @@
 /* Letter page */
 
 .Letters {
-    margin: 0 10px 20px 10px;
 }
 
 .letter_section {
-    font-size: 1.2em;
-    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.letter_section > p {
+    padding: 20px 0;
 }
 
 .ceo_sign {
-    color: #ff4240;
+    color: var(--primary);
     display: flex;
     flex-direction: column;
     margin: 50px;
     font-weight: 500;
-    margin: 20px 0;
+    margin: 30px 20px;
 }
 
 /* Principles page */
 
 .principles >h3 {
     width: 90%;
-    font-size: 1.5em;
     margin: 30px auto;
+    padding: 2em;
 }
 .principles_section {
     background: aliceblue;
@@ -45,31 +51,37 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
     text-align: center;
+    padding: 40px 0;
 }
 
 .principles_section > h2 {
-    font-size: 1.3em;
     margin: 10px 0;
 }
 
 .principles_section > h6 {
-    font-size: 1em;
     margin: 10px auto;
     color: gray;
     font-weight: 400;
 }
 
 .principles_list {
-    margin: 20px 0;
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .principles_list > div {
-    background: #ff4240;
+    background: var(--primary);;
     color: white;
-    margin: 15px auto;
+    margin: 15px 10px;
     padding: 15px 25px;
+}
+
+.com_backg {
+    background: aliceblue;
 }
 
 @media screen and  (min-width:300px) and  (max-width:800px){
@@ -84,7 +96,6 @@
     }
     .letter_section,.ceo_sign {
         width: 70%;
-        font-size: 1.2em;
         margin: 50px auto;
     }
 }
@@ -93,22 +104,30 @@
 @media screen and  (min-width:1080px){
     .investors_section {
         margin: 20px auto;
-        font-size: 16px;
         padding: 20px 300px;
     }
+
     .letter_section,.ceo_sign {
-        width: 70%;
-        font-size: 1.2em;
-        margin: 50px auto;
+       padding: 50px 300px;
+       margin: 30px 0;
+    }
+
+    .principles_section {
+        padding: 3em 0;
     }
 
     .principles >h3 {
-        width: 70%;
+        padding: 150px 300px;
+        line-height: 2em;
     }
 
     .principles_list {
         display: flex;
         flex-wrap: wrap;
+    }
+    
+    .principles_list > div {
+        width: 400px;
     }
     
 }

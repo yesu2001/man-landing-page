@@ -17,6 +17,7 @@
 
 .section_one>p {
 	width: 100%;
+	padding: 30px 0;
 }
 
 
@@ -64,7 +65,7 @@
 	margin: 20px 0;
 	font-size: 1.3em;
 	font-weight: bold;
-	background: #FF4240;
+	background: var(--primary);
 	cursor: pointer;
 }
 /* 

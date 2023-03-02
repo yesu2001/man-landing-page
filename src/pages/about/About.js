@@ -14,10 +14,9 @@ import './About.css'
 function about() {
   document.title = 'About - MAN.';
   return (
-    <React.Fragment>
+    <div>
       <Navbar/>
       <div className="about_page">
-        <h1 className='aboutpage_title'>About Us</h1>
         <div className="about_page_moto">
           <h1 className='section_title'>Promise To Grow Responsibly</h1>
           <p>MAN is committed to complying with local laws and regulations as well as applying a strict global code of conduct to all employees.</p>
@@ -25,7 +24,7 @@ function about() {
           </p>
           <p>With an aim to become one of the most responsible companies In the world.</p>
         </div>
-        <div className='section com_bg'>
+        <div className='section'>
           <h2 className='section_title'>Who we are</h2>
           <p>
           MAN commenced its operations in the year 2022, since then the company has periodically incorporated innovative production technologies and updated its methods to match current global standards ensuring over all optimization of its processes.<br/>
@@ -49,7 +48,7 @@ We have a deep and longstanding commitment to advancing diversity, equity, and i
         </div>
         <div className='section '>
           <h2 className='section_title'>Our guiding principles</h2>
-          <p>We are committed to enhancing the long-term value of the investment dollars entrusted to us by our shareholders. By running the business responsibly, we expect our shareholders to be rewarded with superior returns.<br/>
+          <p>We are committed to enhancing the long-term value of the investment dollars entrusted to us by our shareholders. By running the business responsibly, we expect our shareholders to be rewarded with superior returns.
 Success depends on our ability to consistently satisfy ever-changing customer preferences. We commit to being innovative and responsive, while offering high-quality products and services.
 <br/>
 The exceptional quality of our workforce provides a valuable competitive edge. To build on this advantage, we will strive to hire and retain the most qualified people.
@@ -86,18 +85,18 @@ We commit to being a good corporate citizen in all the places we operate worldwi
               </div>
             </div>
         </div>
-        <div className='section '>
+        <div className='section'>
             <h2 className='section_title'>Sustainable Growth.</h2>
             <p>We are being a responsible and pioneering business. It goes back to the 2022 days of our founders, who launched one of the purposeful brands for the future. And it is how we run our company today.<br/>We strive to do more good for our planet and our society – not just less harm. We want to act on the social and environmental issues facing the world and we want to empower people’s lives with our innovative, sustainable products.<br/>This is how we will grow our business.</p>
         </div>
         <div className='section com_bg'>
             <h2 className='section_title'>Connect with us.</h2>
-            <p>Thanks for your interest in MAN. We want to help serve you better and improve your experience with our company.<br/>Please note this contact option is only for customers based in the US & EU.<br/>If you've already used our standard contact channels and would still like to get in touch, please contact me directly using email.<br/>While I'm not able to respond to every email, your comments are always taken seriously and will be shared with the relevant teams.<br/>Kind regards<br/>
+            <p>Thanks for your interest in MAN. We want to help serve you better and improve your experience with our company.Please note this contact option is only for customers based in the US & EU.If you've already used our standard contact channels and would still like to get in touch, please contact me directly using email.While I'm not able to respond to every email, your comments are always taken seriously and will be shared with the relevant teams.<br/>Kind regards<br/>
             <br/><i>President,</i><br/>MAN, Inc.</p>
         </div>
         </div>
         <FooterSection/>
-      </React.Fragment>
+      </div>
   )
 }
 

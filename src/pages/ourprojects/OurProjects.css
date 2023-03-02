@@ -73,7 +73,7 @@ section {
     transition: 0.25s ease-in-out;
 }
 .cc-ap-div div:hover{
-    background-color: #e76f51;
+    background-color: var(--primary);
     color: black;
     transition: 0.25s ease-in-out;
 }
@@ -133,7 +133,7 @@ section {
     margin: 0;
 }
 .stic-wrp h1 span{
-    background-color: #e76f51;
+    background-color: var(--primary);
     padding: 0.1em ;
 }
 .sti-ico{
@@ -145,7 +145,7 @@ section {
     transition: 0.25s ease-in-out;
 }
 .icon:hover{
-    color: #e76f51;
+    color: var(--primary);
     transition: 0.25s ease-in-out;
 }
 .ee-sep-div{
@@ -165,7 +165,8 @@ section {
 }
 .ee-sep-div h3{
     font-size: 1em;
-    color: #e76f51;
+    color: var(--primary);
+    margin-bottom: 20px;
 }
 .ee-sep-div p{
     font-size: 0.55em;
@@ -213,7 +214,7 @@ section {
     font-size: 1.5em;
     margin: 0;
     display: inline-block;
-    background-color: #e76f51;
+    background-color: var(--primary);
     color: black;
 }
 .sec-con-div h3{
@@ -305,7 +306,7 @@ section {
     text-align: left;
 }
 .IA-wrp h2{
-    background-color: #e76f51;
+    background-color: var(--primary);
     display:inline-block;
     padding: 0.1em;
     color: black;

@@ -103,7 +103,7 @@ hr {
 }
 .list-p-info-div button{
     width: 100%;
-    background-color: #e76f51;
+    background-color: var(--primary);
     color: white;
     font-size: 0.55em;
     border: none;

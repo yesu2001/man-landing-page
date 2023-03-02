@@ -11,7 +11,7 @@ function contact() {
   return (
     <div>
         <Navbar/>
-        <h1 className="page_title">CONTACT</h1>
+        <h1 className="page_title">Contact</h1>
         <section className='contact_section'>
             <div className='contact_section_one'>
                 <h3>MAN, Inc.</h3>

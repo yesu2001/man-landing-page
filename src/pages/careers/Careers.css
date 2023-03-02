@@ -11,7 +11,7 @@
     text-decoration: underline;
 }
 .job {
-    color: #FF4240;
+    color: var(--primary);
     font-size: 19px;
     font-weight: 400;
     cursor: pointer;
@@ -19,7 +19,7 @@
 
 .job:hover {
     display: inline-block;
-    border-bottom: 1px solid #FF4240;
+    border-bottom: 1px solid var(--primary);
 }
 
 .career_section p {

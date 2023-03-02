@@ -1,6 +1,6 @@
 .contact_section {
     width: 100%;
-    margin: 40px 0 20px 0;
+    margin: 40px 0 0 0;
 }
 
 .contact_section h1 {
@@ -37,6 +37,7 @@
 }
 
 .contact_section_form > form {
+    width: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,7 +45,7 @@
 }
 
 input{
-    width: 200px;
+    width: 80%;
     margin: 10px 0;
     padding: 10px 10px;
     border-radius: 8px;
@@ -52,11 +53,9 @@ input{
     border: 1px solid grey;
 }
 
-
-
 .submitbtn {
     cursor: pointer;
-    background: #FF4240;
+    background: var(--primary);;
     border: none !important;
     color: white;
     font-weight: 600;
