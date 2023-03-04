@@ -20,22 +20,19 @@
 .letter_section {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 20px;
 }
 
 .letter_section > p {
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .ceo_sign {
     color: var(--primary);
     display: flex;
     flex-direction: column;
-    margin: 50px;
     font-weight: 500;
-    margin: 30px 20px;
+    margin-top: 20px;
 }
 
 /* Principles page */
@@ -103,25 +100,29 @@
 
 @media screen and  (min-width:1080px){
     .investors_section {
-        margin: 20px auto;
-        padding: 20px 300px;
+        padding: 20px 250px;
     }
 
     .investors_section p {
         margin: 20px 0;
     }
 
-    .letter_section,.ceo_sign {
-       padding: 50px 300px;
-       margin: 30px 0;
+    .letter_section {
+       padding: 50px 250px;
     }
+
+    .ceo_sign {
+        padding: 0 250px;
+        padding-bottom: 20px;
+    }
+
 
     .principles_section {
         padding: 3em 0;
     }
 
     .principles >h3 {
-        padding: 150px 300px;
+        padding: 150px 250px;
         line-height: 2em;
     }
 

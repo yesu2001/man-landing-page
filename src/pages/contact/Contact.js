@@ -5,9 +5,11 @@ import Navbar from '../../components/navbar/Navbar';
 import {ImLocation2} from 'react-icons/im'
 import {ImSphere} from 'react-icons/im'
 import {ImMail2} from 'react-icons/im'
+import contact_us from '../../images/contact_us.jpg'
 
 function Contact() {
     document.title = 'Contact - MAN.'
+
     React.useEffect(() => {
         window.scrollTo(0,0);
     },[])
@@ -15,22 +17,9 @@ function Contact() {
   return (
     <div>
         <Navbar/>
-        <h1 className="page_title">Contact</h1>
         <section className='contact_section'>
             <div className='contact_section_one'>
-                <h3>MAN, Inc.</h3>
-                <div>
-                    <ImLocation2/>
-                    <p>1007 N Orange St. 4th Floor Suite #1377, Wilmington, DE - 19801.</p>
-                </div>
-                <div>
-                    <ImMail2/>
-                    <p>office@maninc.co</p>
-                </div>
-                <div>
-                    <ImSphere/>
-                    <p>maninc.co</p>
-                </div>
+               <img src={contact_us} alt="contact_us image" />
             </div>
             <div className='contact_section_form'>
                 <h3 className="section_title">WRITE US</h3>

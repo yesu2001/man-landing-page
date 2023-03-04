@@ -3,7 +3,10 @@ import './Careers.css';
 import Navbar from '../../components/navbar/Navbar';
 import FooterSection from '../../components/footerSection/FooterSection';
 import { useNavigate } from "react-router-dom";
-
+import quit_job from '../../images/quit_job.jpg'
+import benefits from '../../images/benefits.jpg'
+import innovator from '../../images/innovator.jpg'
+import career1 from '../../images/career1.jpg'
 
 function Careers() {
     document.title = 'Careers - MAN.'
@@ -31,43 +34,58 @@ function Careers() {
   return (
     <div>
         <Navbar/>
-        <h1 className='page_title'>Careers</h1>
+        <section className='career_section com_bg'>
+            <div>
+                <img src={quit_job} alt="quit job image"/>
+            </div>
+            <div>
+                <h2 className="section_title">Quit your Job Today</h2>
+                <p>It doesn’t matter where you come from, where you went to school or what industry you’re in if you’ve done exceptional work.</p>
+                <p>When you work here, you get that our values are more than just words on paper. You’re joining a place where diversity, equity, and inclusion are at the heart of our business practices and culture.</p>
+                <p>And no matter what office you’re in or what discipline, there are a few things that make us all tick. Being open and taking chances.</p>
+            </div>
+        </section>
         <section className='career_section'>
-            <h2 className="section_title">Quit your Job Today</h2>
-            <p>It doesn’t matter where you come from, where you went to school or what industry you’re in if you’ve done exceptional work.</p>
-            <p>When you work here, you get that our values are more than just words on paper. You’re joining a place where diversity, equity, and inclusion are at the heart of our business practices and culture.</p>
-            <p>And no matter what office you’re in or what discipline, there are a few things that make us all tick. Being open and taking chances.</p>
+            <div>
+                <div className='benefits_section'>
+                        <h3 className="section_title">Huge Holidays.</h3>
+                        <p>We close for a week 3x annually, so we can all rest together and truly enjoy the time off.</p>
+                </div>
+                <div className='benefits_section'>
+                        <h3 className="section_title">Early Fridays.</h3>
+                        <p>We log off at 2pm on Fridays all year long.</p>
+                </div>
+                <div className='benefits_section'>
+                        <h3 className="section_title">Taking care.</h3>
+                        <p>We know that wellness is both physical and mental, so we have Take Care days when you need them.</p>
+                </div>
+            </div>
+            <div>
+                <img src={benefits} alt="benefits" />
+            </div>
         </section>
         <section className='career_section com_bg'>
-            <div className='benefits_section'>
-                    <h3 className="section_title">Huge Holidays.</h3>
-                    <p>We close for a week 3x annually, so we can all rest together and truly enjoy the time off.</p>
-            </div>
-            <div className='benefits_section'>
-                    <h3 className="section_title">Early Fridays.</h3>
-                    <p>We log off at 2pm on Fridays all year long.</p>
-            </div>
-            <div className='benefits_section'>
-                    <h3 className="section_title">Taking care.</h3>
-                    <p>We know that wellness is both physical and mental, so we have Take Care days when you need them.</p>
-            </div>
-        </section>
-        <section className='career_section'>
-            <h2 className="section_title">Be an innovator</h2>
             <div>
+                <img src={innovator} alt="innovator image" />
+            </div>
+            <div>
+                <h2 className="section_title">Be an innovator</h2>
                 <p>Interns tackle hands-on projects and design challenges, constantly upending conventions and pushing boundaries.</p>
                 <p>At MAN, interns are an important part of the team. Whether you sign on for a internship during the academic year, you can work on critical projects. As part of the MAN, you’ll get an insider’s perspective on the way we work and the people who lead us.</p>
                 <p>Yes, you’ll learn from them, but they expect to learn from you, too.</p>
             </div>
         </section>
-        <hr/>
         <div className='career_section'>
-            <h2 className="section_title">Careers</h2>
-            <p>We're looking for talented individuals ready to get their hands dirty to make a meaningful impact that will last for generations to come. We are an equal opportunity employer offering competitive salaries, comprehensive health benefits, and equity packages.</p>
-        </div>
-        <hr/>
-        <section className='career_section jobs'>
             <div>
+                <h2 className="section_title">Careers</h2>
+                <p>We're looking for talented individuals ready to get their hands dirty to make a meaningful impact that will last for generations to come. We are an equal opportunity employer offering competitive salaries, comprehensive health benefits, and equity packages.</p>
+            </div>
+            <div>
+                <img src={career1} alt="career image"/>
+            </div>
+        </div>
+        <section className='jobs_section com_bg'>
+            <div className="jobs">
                 <b>Engineering</b>
                 <div>
                     <h2 onClick={()=>{toComponentEE()}} className="job">Electrical Engineer</h2>
@@ -82,7 +100,7 @@ function Careers() {
                     <p>Wilmington, DE</p>
                 </div>
             </div>
-            <div>
+            <div className="jobs">
                 <b>Operations</b>
                 <div>
                     <h2 className="job" onClick={()=>{toComponentAC()}}>Accountant</h2>

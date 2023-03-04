@@ -1,15 +1,27 @@
-.career_section {
-    padding: 5em 1em;
+.career_section,.jobs_section {
+/*    padding: 5em 1em;*/
     font-size: 1em;
+/*    height: 100vh;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+
 }
 
 .career_section > div {
-    margin: 20px 0;
+    padding: 20px 0;
 }
 
-.career_section b {
+.career_section img {
+    display: none;
+}
+
+.jobs_section b {
     text-decoration: underline;
 }
+
+
 .job {
     color: var(--primary);
     font-size: 19px;
@@ -18,13 +30,17 @@
 }
 
 .job:hover {
-    display: inline-block;
     border-bottom: 1px solid var(--primary);
 }
 
 .career_section p {
     /* color: grey; */
-    margin-bottom: 10px;
+/*    margin-bottom: 10px;*/
+}
+
+.com_bg {
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
 }
 
 
@@ -35,27 +51,66 @@
 @media screen and  (min-width:800px) and (max-width:1080px){
     .career_section {
         display: flex;
-        flex-direction: column;
-        margin: 0 50px;
-        padding: 20px 200px;
+        align-items: center;
+        justify-content: center;
+/*        margin: 20px 50px;*/
+        padding: 20px 50px;
+    }
+
+    .career_section > div {
+        flex: 0.5;
+        padding: 0 20px;
+    }
+
+    .career_section img {
+        display: block;
+        width: 300px;
+        height: 300px;
     }
     .jobs {
-        display: flex;
     }
-    .jobs > div {
-        margin-right: 50px;
+    .jobs > div, b  {
+        margin: 50px;
+    }
+
+    .jobs_section {
+        height: 100vh;
+        display: flex;
+        margin: auto 0;
+        padding: 50px 100px;
     }
 }
 @media screen and  (min-width:1080px){
     .career_section {
-        margin: 0 50px;
-        padding: 20px 300px;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+/*        margin: 20px 50px;*/
+        padding: 20px 100px;
+    }
+
+    .career_section > div {
+        flex: 0.5;
+        padding: 0 20px;
+    }
+
+    .career_section img {
+        display: block;
+        width: 500px;
+        height: 500px;
     }
     .jobs {
-        display: flex;
     }
-    .jobs > div {
-        margin-right: 50px;
+    .jobs > div, b  {
+        margin: 50px;
+    }
+
+    .jobs_section {
+        height: 100vh;
+        display: flex;
+        margin: auto 0;
+        padding: 50px 100px;
     }
 
 }

@@ -10,7 +10,6 @@ function Media() {
   return (
     <div>
         <Navbar/>
-        <h1 className="page_title">Newsroom & Media</h1>
         <div className='media_section'>
             <h3 className="section_title">MAN Campaign Announcement</h3>
             <p>As we approach this $1mm maximum, the campaign we planned to start on February of (2023).</p>

@@ -16,10 +16,10 @@ function FooterSection() {
           <p className='footer_address'>
           1007 N Orange St.<br/> 4th Floor Suite #1377, <br/> Wilmington, DE - 19801.
           </p>
-          <div className='footer_contact'>
-            <p>(308) 632-8220</p>
-            <p>office@maninc.co</p>
-          </div>
+        </div>
+        <div className='footer_contact'>
+          <p>(308) 632-8220</p>
+          <p>office@maninc.co</p>
         </div>
       </div>
       <hr/>
