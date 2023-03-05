@@ -11,7 +11,6 @@ function Privacy() {
   return (
     <div className='privacy'>
         <Navbar/>
-        <h1 className='page_title'>PRIVACY</h1>
         <section className='section_privacy'>
             <p>At MAN, we put our top priority on protecting your personal information. </p>
             <p>Fully acknowledging the fact that your personal information belongs to you, we do our best to securely store and carefully process the information you share with us.</p>

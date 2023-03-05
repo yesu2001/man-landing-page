@@ -10,7 +10,6 @@ function Legal() {
   return (
     <div className="legal">
         <Navbar/>
-        <h1 className='page_title'>LEGAL</h1>
         <section className="section_legal">
             <p>This "Website" is operated by MAN, Inc - 1007 N Orange St. 4th Floor Suite #1377, Wilmington, DE - 19801.</p>
             <p>Personal information means any recorded information from which you may be identified. This will include the contact information you provide to us if you sign up to receive information from us and this may also include any information we may collect from you (other than on an anonymous basis) as a result of your use of the Website. Any personal information you provide and/ or register on the Website will be stored on an MAN Corporation server located in Delaware, USA (the "Server").</p>

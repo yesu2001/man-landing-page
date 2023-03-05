@@ -26,7 +26,7 @@ h4 {
     /* font-size: 1.2em; */
 }
 p {
-    font-size: 1rem;
+    font-size: 1.2em;
     line-height: 2em;
 }
 a {
@@ -45,7 +45,4 @@ li {
 
 
 
-.section_title {
-    color: lightslategrey;
-}
 

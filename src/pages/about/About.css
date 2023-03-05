@@ -13,8 +13,8 @@
 }
 .about_page_moto {
     background: aliceblue;
-    text-align: center;
-    padding: 6em 0;
+    /* text-align: center; */
+    padding: 6em 15px;
 }
 
 .about_page_moto > h1 {
@@ -25,7 +25,7 @@
 .section {
     width: 100%;
     padding: 3em 1em;
-    text-align: center;
+    /* text-align: center; */
     margin: 5em 0;
 }
 
@@ -40,8 +40,9 @@
 .section_list {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
+    color: black;
 }
 
 .section_list > div {
@@ -51,16 +52,11 @@
     justify-content: space-between;
     border-left: 3px solid var(--primary);
     margin: 10px 0;
-    padding: 10px 20px;
+    padding: 15px 20px;
+    border-radius: 5px;
     background: white;
-    -webkit-box-shadow: 2px 0px 10px 2px rgba(158,150,158,0.46);
-    -moz-box-shadow: 2px 0px 10px 2px rgba(158,150,158,0.46);
-    box-shadow: 2px 0px 10px 2px rgba(158,150,158,0.46);
 }
 
-.com_bg {
-    background: #F3F6F5;
-}
 
 .btn {
     margin: 20px 0;
@@ -71,10 +67,10 @@
 
 @media screen and  (min-width:801px) and (max-width:1080px){
     .about_page_moto {
-        padding: 100px 250px;
+        padding: 100px 100px;
     }
     .section {
-        padding: 20px 300px;
+        padding: 20px 100px;
     }
 
     .section_list {
@@ -85,7 +81,7 @@
     }
 
     .section_list > div {
-        margin: 10px 10px;
+        margin: 20px 40px 20px 0;
     }
 }
 
@@ -111,7 +107,7 @@
     }
 
     .section_list > div {
-        margin: 20px 20px;
+        margin: 20px 40px 20px 0;
     }
     
 }

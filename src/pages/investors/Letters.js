@@ -11,7 +11,6 @@ function Letters() {
   return (
       <div className="Letters">
         <Navbar/>
-          <h1 className='page_title'>Shareholder's Letter</h1>
           <section className='letter_section'>
             <h3 className='section_title'>To our Fellow Shareholder</h3>
             <p>

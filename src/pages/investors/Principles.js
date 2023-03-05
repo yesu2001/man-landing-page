@@ -20,7 +20,7 @@ function Principles() {
         <h3>MAN's Management Philosophy is to <span style={{color: '#FF4240'}}>"devote our human resources and technology to create superior products and services, thereby contributing to a better global society." </span>MAN's code of conduct is the foundation that allows us to create a fair, clean, and transparent corporate culture.</h3>
         <section className="principles_section">
           <h2>Corporate and Social Responsibilities.</h2>
-          <h6>In fulfilling our corporate and social responsibilities, MAN Inc adheres to five business principles.</h6>
+          <p>In fulfilling our corporate and social responsibilities, MAN Inc adheres to five business principles.</p>
           <div className='principles_list'>
             <div>
                 <GoLaw size='50px' color='black'/>
