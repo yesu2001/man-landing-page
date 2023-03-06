@@ -27,7 +27,7 @@ function Contact() {
                     <input placeholder='Name' name='name' id='name'></input>
                     <input placeholder='Email' name='mail' id='mail'></input>
                     <input placeholder='Subject' name='subject' id='subject'></input>
-                    <input placeholder='description' name='description' id='description'></input>
+                    <textarea rows={10} placeholder='Description' name='description' id='description'></textarea>
                     {/* <textarea placeholder='Description' name='body' rows='8' cols='3'></textarea> */}
                     <input type="submit" className="submitbtn" value="SUBMIT"/>
                 </form>

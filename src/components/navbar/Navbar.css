@@ -17,7 +17,6 @@
 }
 
 nav {
-    font-size: 0.9em;
 }
 .main-header-wrap h1{
     font-family: 'Imbue', serif;
@@ -49,7 +48,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    
 }
 
 .navbar_phone_header {
@@ -67,6 +66,7 @@ nav {
 
 
 .navList {
+    font-size: 0.9em;
     margin: 15px 0px;
     color: whitesmoke;
     cursor: pointer;

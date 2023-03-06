@@ -6,6 +6,7 @@
   font-size: 5rem;
 }
 .hero_section {
+  font-size: 15px;
   height: 100vh;
   background: url('../../images/PA.png');
   background-size: cover;
@@ -18,7 +19,7 @@
 .section_container {
   display: flex;
   flex-wrap: wrap;
-  background: #E2E2E2;
+  background: #000000;
 }
 
 .hero_section_content {
@@ -46,27 +47,19 @@
 }
 
 .home_section {
-  margin: 50px 20px;
+  margin-top: 50px;
   width: 100%;
   text-align: center;
   line-height: 75px;
-  /* flex: 0.5;
-  height: 100vh;
-	display: flex;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center; */
   font-size: 1em;
 }
 
-.home_section img {
-  display: block;
-}
 
 .home_section img {
   display: block;
   width: fit-content;
   height: 300px;
+  border-radius: 7px;
 }
 
 .home_section > div {
@@ -110,7 +103,7 @@
 
 @media screen and  (min-width:800px) and (max-width:1080px){
   .home_section {
-    padding: 20px 100px;
+    padding: 50px 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,11 +140,12 @@
 .section_container {
   display: flex;
   flex-wrap: wrap;
-  background: #E2E2E2;
+  background: #000000;
+  
 }
 
 .hero_section_content {
-  width: 50%;
+  width: 70%;
   position: absolute;
   top: 50px;
   left: 100px;
@@ -167,7 +161,7 @@
 
 @media screen and  (min-width:1080px){
 	.home_section {
-    padding: 20px 100px;
+    padding: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -206,7 +200,7 @@
 .section_container {
   display: flex;
   flex-wrap: wrap;
-  background: #E2E2E2;
+  background: #000000;
 }
 
 .hero_section_content {

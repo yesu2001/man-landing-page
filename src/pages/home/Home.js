@@ -25,7 +25,7 @@ function Home() {
           <Link to="/projects/ourprojects"><button className='hero_checkout'>Learn more</button></Link>
         </div>
       </section>
-      <section className='home_section '>
+      <section className='home_section com_bg'>
         <div>
           <img src={aboutimg} alt="about illustration"/>
         </div>
@@ -48,7 +48,7 @@ function Home() {
           <img src={sustainimg} alt="sustainability illustration"/>
         </div>
       </section>
-      <section className="home_section sec_usa">
+      <section className="home_section sec_usa com_bg">
         <div>
           <img src={purposeimg} alt="purpose illustration"/>
         </div>
