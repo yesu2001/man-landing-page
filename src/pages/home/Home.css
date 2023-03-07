@@ -62,10 +62,15 @@
 
 
 .home_section img {
-  display: block;
-  width: fit-content;
-  height: 300px;
-  border-radius: 7px;
+  width: 100%;
+  height: 100%;
+}
+
+.home_section_content {
+  background: white;
+  color: black;
+  margin: 0 50px;
+  transform: translateY(-50px);
 }
 
 .home_section > div {
@@ -84,12 +89,12 @@
 }
 
 .home_section button {
-    border: 2px solid var(--primary);;
+    border: none;
     cursor: pointer;
     border-radius: 6px;
     padding: 10px 20px;
-    color: var(--primary);;
-    background: transparent;
+    color: white;
+    background: var(--primary);
     font-weight: 500;
     font-size: 18px;
     transition: 0.5s;
@@ -167,30 +172,51 @@
 
 @media screen and  (min-width:1080px){
 	.home_section {
-    padding: 100px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    text-align: center;
     line-height: 75px;
+    height: 100vh;
 	}
+
+
 	.home_section > div{
     width: 100%;
-    flex: 0.5;
     display: flex;
     justify-content: center;
     align-items: center;
 	}
 
+  .home_section_content {
+    flex: 0.1;
+    border-radius: 6px;
+    color: black;
+    padding: 20px 10px;
+    position: relative;
+    background: white;
+    /* transform: translateX(-300px ); */
+    box-shadow: 2px 2px 17px 1px rgba(0, 0, 0, 0.3);
+  }
+
+  .sec_join_us>.home_section_content, .sec_sustain>.home_section_content{
+    transform: translateX(300px );
+  }
+
+  .sec_usa > .home_section_content, .sec_about > .home_section_content {
+    transform: translateX(-300px);
+  }
+
   .home_section > div > p {
-    width: 450px;
+    width: 500px;
+  }
+
+  .home_section_imge {
+    height: 90%;
+    flex: 1;
   }
 
   .home_section img {
-    display: block;
-    width: fit-content;
-    object-fit: cover;
-    height: 500px;
+    width: 100%;
+    height: 100%;
   }
   
 .hero_section {
