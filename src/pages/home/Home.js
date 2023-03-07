@@ -20,7 +20,7 @@ function Home() {
       <div className="section_container">
       <section className='hero_section'>
         <div className='hero_section_content'>
-          <h1 className='hero_heading'>INTRODUCING PROJECT <p className='large'>ENERGY</p></h1>
+          <h2 className='hero_heading'>INTRODUCING PROJECT <p className='large'>ENERGY</p></h2>
           <p className='hero_subheading'>Say Goodbye to Slow and Inconvenient Charging Our Product Offers the Fastest and Most Reliable Charging Experience Yet.</p><br/>
           <Link to="/projects/ourprojects"><button className='hero_checkout'>Learn more</button></Link>
         </div>

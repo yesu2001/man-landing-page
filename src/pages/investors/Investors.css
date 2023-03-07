@@ -1,5 +1,6 @@
 .investors_section {
     padding: 50px;
+    font-size: 0.8em;
 }
 
 .section_title{
@@ -14,13 +15,12 @@
 
 /* Letter page */
 
-.Letters {
-}
 
 .letter_section {
     display: flex;
     flex-direction: column;
     padding: 20px;
+    
 }
 
 .letter_section > p {

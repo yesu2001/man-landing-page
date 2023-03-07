@@ -1,6 +1,7 @@
 .management  > p {
 	padding: 20px 10px;
 	text-align: center;
+	
 }	
 
 
@@ -9,6 +10,7 @@
 .management_section {
 	width: 100%;
     padding: 2em 1em;
+	font-size: 0.8em;
 }
 
 .management_section > span {

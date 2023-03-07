@@ -14,11 +14,13 @@
 .about_page_moto {
     background: aliceblue;
     /* text-align: center; */
+    font-size: 0.8em;
     padding: 6em 15px;
 }
 
 .about_page_moto > h1 {
     margin-bottom: 15px;
+    
 }
 
 
@@ -26,7 +28,9 @@
     width: 100%;
     padding: 3em 1em;
     /* text-align: center; */
+    font-size: 0.8em;
     margin: 5em 0;
+        
 }
 
 .section > h3 {
@@ -42,7 +46,9 @@
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    color: black;
+    color: orangered;
+    
+    
 }
 
 .section_list > div {
@@ -54,7 +60,7 @@
     margin: 10px 0;
     padding: 15px 20px;
     border-radius: 5px;
-    background: white;
+    background: rgb(0, 0, 0);
 }
 
 
@@ -97,6 +103,7 @@
 
     .section_title {
         padding: 10px 0;
+        
     }
 
     .section_list {

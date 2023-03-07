@@ -41,7 +41,8 @@ function Letters() {
           </section>
           <div className="ceo_sign">
             <i>Joe Antony</i>
-            <span>CEO, MAN,Inc.</span>
+            <span>CEO</span>
+            <span>MAN,Inc.</span>
           </div>
           <FooterSection/>
       </div>
