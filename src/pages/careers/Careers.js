@@ -3,8 +3,8 @@ import './Careers.css';
 import Navbar from '../../components/navbar/Navbar';
 import FooterSection from '../../components/footerSection/FooterSection';
 import { useNavigate } from "react-router-dom";
-import quit_job from '../../images/quit_job.jpg'
-import benefits from '../../images/benefits.jpg'
+import quit_job from '../../images/quit.jpg'
+import benefits from '../../images/huge holidays.jpg'
 import innovator from '../../images/innovator.jpg'
 import career1 from '../../images/career1.jpg'
 
@@ -66,7 +66,7 @@ function Careers() {
         </section>
         <section className='career_section com_bg'>
             <div>
-                <img src={innovator} alt="innovator image" />
+                {/* <img src={innovator} alt="innovator image" /> */}
             </div>
             <div>
                 <h2 className="section_title">Be an innovator</h2>
@@ -81,7 +81,7 @@ function Careers() {
                 <p>We're looking for talented individuals ready to get their hands dirty to make a meaningful impact that will last for generations to come. We are an equal opportunity employer offering competitive salaries, comprehensive health benefits, and equity packages.</p>
             </div>
             <div>
-                <img src={career1} alt="career image"/>
+                {/* <img src={career1} alt="career image"/> */}
             </div>
         </div>
         <section className='jobs_section com_bg'>

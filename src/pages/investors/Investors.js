@@ -24,7 +24,7 @@ function Investors() {
             The principles serve as the global code of conduct in compliance with legal and ethical standards and the fulfilment of its corporate social responsibilities.</p>
             <Link to="/investors/principles" className='link'>Learn more</Link>
           </div>
-          <div className="investors_section">
+          <div className="investors_section com_bg">
             <h2 className='section_title'>Meeting our customer's needs</h2>
             <p>We continually innovate and use industry-leading technology to safely produce lower-emission energy resources to affordably and reliably meet the fundamental needs of people around the world.<br/>
             Our upstream operations bring reliable and affordable energy solutions to the world through our project Energy.</p>

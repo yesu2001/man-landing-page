@@ -13,7 +13,7 @@ function FooterSection() {
         <Link to='/privacy' className="white_icon"><p>Privacy</p></Link>
         <Link to='/legal' className="white_icon"><p>Legal</p></Link>
       </div>
-      <p>© 2022 MAN, Inc. All Rights Reserved.</p>
+      <p>© 2023 MAN, Inc. All Rights Reserved.</p>
     </div>
   )
 }

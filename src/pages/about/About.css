@@ -12,13 +12,20 @@
     color: var(--primary);
 }
 .about_page_moto {
-    background: aliceblue;
+    background: url('../../images/promise.jpg');
+    /* filter: blur(5px); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     /* text-align: center; */
+    font-size: 0.8em;
     padding: 6em 15px;
+    color: white;
 }
 
-.about_page_moto > h1 {
-    margin-bottom: 15px;
+.about_page_moto > h2 {
+    margin-bottom: 50px;
+    
 }
 
 
@@ -26,7 +33,9 @@
     width: 100%;
     padding: 5em 1em;
     /* text-align: center; */
-    margin-top: 5em;
+    font-size: 0.8em;
+    margin: 5em 0;
+        
 }
 
 .section > h3 {
@@ -42,7 +51,9 @@
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    color: black;
+    color: orangered;
+    
+    
 }
 
 .section_list > div {
@@ -54,7 +65,7 @@
     margin: 10px 0;
     padding: 15px 20px;
     border-radius: 5px;
-    background: white;
+    background: rgb(0, 0, 0);
 }
 
 
@@ -67,6 +78,7 @@
 
 @media screen and  (min-width:801px) and (max-width:1080px){
     .about_page_moto {
+        height: 100vh;
         padding: 100px 100px;
     }
     .section {
@@ -87,16 +99,25 @@
 
 @media screen and  (min-width:1080px){
     .about_page_moto {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         text-align: left;
         padding: 100px 300px;
     }
     .section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         text-align: left;
-        padding: 20px 250px;
+        padding: 0 250px;
+        height: 100vh;
     }
 
     .section_title {
         padding: 10px 0;
+        
     }
 
     .section_list {

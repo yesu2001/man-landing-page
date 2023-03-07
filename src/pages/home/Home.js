@@ -4,10 +4,10 @@ import {Link} from 'react-router-dom';
 import FooterSection from '../../components/footerSection/FooterSection';
 import Navbar from '../../components/navbar/Navbar';
 import './Home.css'
-import careerimg from '../../images/career.jpg';
-import sustainimg from '../../images/sustain.jpg';
-import purposeimg from '../../images/purpose.jpg';
-import aboutimg from '../../images/about.jpg';
+import careerimg from '../../images/join us.jpg';
+import sustainimg from '../../images/Sustainability.jpg';
+import purposeimg from '../../images/usa.jpg';
+import aboutimg from '../../images/about us.jpg';
 
 function Home() {
   document.title = 'Home - MAN.';
@@ -20,7 +20,7 @@ function Home() {
       <div className="section_container">
       <section className='hero_section'>
         <div className='hero_section_content'>
-          <h1 className='hero_heading'>INTRODUCING PROJECT <p className='large'>ENERGY</p></h1>
+          <h2 className='hero_heading'>INTRODUCING PROJECT <p className='large'>ENERGY</p></h2>
           <p className='hero_subheading'>Say Goodbye to Slow and Inconvenient Charging Our Product Offers the Fastest and Most Reliable Charging Experience Yet.</p><br/>
           <Link to="/projects/ourprojects"><button className='hero_checkout'>Learn more</button></Link>
         </div>

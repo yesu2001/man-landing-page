@@ -21,7 +21,7 @@ function About() {
       <Navbar/>
       <div className="about_page">
         <div className="about_page_moto">
-          <h1 className='section_title'>Promise To Grow Responsibly</h1>
+          <h2 className='section_title'>Promise To Grow Responsibly</h2>
           <p>MAN is committed to complying with local laws and regulations as well as applying a strict global code of conduct to all employees.</p>
           <p>It believes that ethical management is not only a tool for responding to the rapid changes in the global business environment, but also for building trust with its various stakeholders including customers, shareholders, employees, business partners and local communities.
           </p>

@@ -1,6 +1,6 @@
 .career_section,.jobs_section {
 /*    padding: 5em 1em;*/
-    font-size: 1em;
+font-size: 0.8em;
 /*    height: 100vh;*/
     display: flex;
     justify-content: center;
@@ -34,6 +34,7 @@
 }
 
 .career_section p {
+
     /* color: grey; */
 /*    margin-bottom: 10px;*/
 }
@@ -64,10 +65,8 @@
 
     .career_section img {
         display: block;
-        width: 300px;
+        width: 400px;
         height: 300px;
-    }
-    .jobs {
     }
     .jobs > div, b  {
         margin: 50px;

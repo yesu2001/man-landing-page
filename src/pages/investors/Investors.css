@@ -1,5 +1,6 @@
 .investors_section {
     padding: 50px;
+    font-size: 0.8em;
 }
 
 .section_title{
@@ -14,18 +15,15 @@
 
 /* Letter page */
 
-.Letters {
-}
-
 .letter_section {
     display: flex;
     flex-direction: column;
     padding: 20px;
+    font-size: 0.8em;
 }
 
 .letter_section > p {
     padding: 10px 0;
-    font-size: 20px;
 }
 
 .ceo_sign {
@@ -105,7 +103,9 @@
 
 @media screen and  (min-width:1080px){
     .investors_section {
-        padding: 100px 250px;
+        height: 45em;
+        /* width: 80%; */
+        padding: 100px 400px;
     }
 
     .investors_section p {

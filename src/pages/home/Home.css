@@ -3,7 +3,7 @@
 } */
 
 .large {
-  font-size: 5rem;
+  font-size: 3rem;
 }
 .hero_section {
   font-size: 15px;
@@ -51,7 +51,13 @@
   width: 100%;
   text-align: center;
   line-height: 75px;
-  font-size: 1em;
+  /* flex: 0.5;
+  height: 100vh;
+	display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center; */
+  font-size: 0.8em;
 }
 
 
