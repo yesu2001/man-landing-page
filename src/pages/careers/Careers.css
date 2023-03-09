@@ -1,115 +1,171 @@
-.career_section,.jobs_section {
-/*    padding: 5em 1em;*/
-font-size: 0.8em;
-/*    height: 100vh;*/
+.Careers {
+    background: #E2E2E2;
+    /* font-size: 0.8em; */
+}
+.career_section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 50px 20px;
-
-}
-
-.career_section > div {
-    padding: 20px 0;
-}
-
-.career_section img {
-    display: none;
-}
-
-.jobs_section b {
-    text-decoration: underline;
+    background: #E2E2E2;
 }
 
 
-.job {
-    color: var(--primary);
-    font-size: 19px;
-    font-weight: 400;
-    cursor: pointer;
+.career_section h2 {
+    margin: 0 20px;
+    background-color: aliceblue;
+    padding: 20px 20px;
 }
 
-.job:hover {
-    border-bottom: 1px solid var(--primary);
+.benefits_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.career_section p {
-
-    /* color: grey; */
-/*    margin-bottom: 10px;*/
+.benefits {
+    flex: 0.3;
+    background: white;
+    padding: 20px;
+    margin: 10px 20px;
+    border-radius: 3px;
 }
 
-.com_bg {
-    background: rgba(0, 0, 0, 0.9);
-    color: white;
+.benefits h3 {
+    font-weight: 600;
 }
 
 
 @media screen and  (min-width:300px) and  (max-width:800px){
+
 }
  
  
 @media screen and  (min-width:800px) and (max-width:1080px){
     .career_section {
         display: flex;
+        flex-direction: row;
         align-items: center;
-        justify-content: center;
-/*        margin: 20px 50px;*/
+        margin: 70px 40px;
+        padding: 20px 70px;
+    }
+
+    .career_section h2 {
+        line-height: 50px;
+        margin: 0 20px;
+        background-color: aliceblue;
+        padding: 20px 20px;
+    }
+    
+    .career_section_para {
         padding: 20px 50px;
+        background: white;
     }
 
-    .career_section > div {
-        flex: 0.5;
-        padding: 0 20px;
-    }
-
-    .career_section img {
-        display: block;
-        width: 400px;
-        height: 300px;
-    }
-    .jobs > div, b  {
-        margin: 50px;
-    }
-
-    .jobs_section {
-        height: 100vh;
+    .benefits_section {
         display: flex;
-        margin: auto 0;
-        padding: 50px 100px;
+        flex-direction: row;
+        justify-content: center;
     }
+
 }
 @media screen and  (min-width:1080px){
     .career_section {
-        height: 100vh;
         display: flex;
+        flex-direction: row;
         align-items: center;
-        justify-content: center;
-/*        margin: 20px 50px;*/
+        margin: 100px 50px;
         padding: 20px 100px;
     }
 
-    .career_section > div {
-        flex: 0.5;
-        padding: 0 20px;
+    .career_section h2 {
+        line-height: 50px;
+        margin: 0 20px;
+        background-color: aliceblue;
+        padding: 20px 20px;
+    }
+    
+    .career_section_para {
+        padding: 20px 50px;
+        background: white;
     }
 
-    .career_section img {
-        display: block;
-        width: 500px;
-        height: 500px;
+    .benefits_section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
-    .jobs {
+
+    .career_section_two {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 100px 250px;
+        margin: 100px 50px;
     }
-    .jobs > div, b  {
-        margin: 50px;
+    
+    .career_section_two > h2 {
+        width: 100%;
+        background: aliceblue;
+        padding: 20px;
+        position: relative;
+        /* right: -300px; */
+    }
+    .career_section_two > div {
+        padding: 60px 120px;
+
+    }
+    .career_section_three {
+        margin: 50px 200px;
+    }
+
+    .career_section_three > p {
+        font-size: 25px;
     }
 
     .jobs_section {
-        height: 100vh;
         display: flex;
-        margin: auto 0;
-        padding: 50px 100px;
+        margin: 5em 10em;
     }
+
+    .jobs_section > div {
+        margin: 0 30px;
+        padding: 50px;
+    }
+
+    .job {
+        cursor: pointer;
+        margin: 20px 0;
+        /* font-size: 20px; */
+    }
+
+    .job_names {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .job_names > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* width: 300px; */
+        /* height: 150px; */
+        background: white;
+        padding: 10px 15px;
+        margin: 15px 10px;
+    }
+
+    .job_names > div:hover {
+        background: var(--primary);
+        color: white;
+        border-radius: 5px;
+    }
+    .job_location {
+        /* font-size: 15px; */
+    }
+
+
+
 
 }

@@ -27,21 +27,24 @@ function Navbar() {
   }
 
   let activeStyle = {
-        color: "white"
+        color: "rgba(0,0,0,0.5)",
+        fontWeight: "bold",
   };
 
   return (
     <div className='Navbar'>
         <div className='navbar_desktop'>
-          <Link to={'/'}  className="main-header-wrap"><h1><span>MA</span>N</h1></Link>
             <nav>
+              <NavLink to={'/'}><span>MA</span>N</NavLink>
               <NavLink to="/about" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">About Us</NavLink>
               <NavLink to="/projects/ourprojects" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Projects</NavLink>
+            </nav>
+            <nav>
               <NavLink to="/investors" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Investors</NavLink>
               <NavLink to="/media" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Media</NavLink>
               <NavLink to="/careers" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Careers</NavLink>
+              <NavLink to="/contact" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Contact</NavLink>
             </nav>
-            <Link to="/contact"><button className='navbar_contact'>Contact</button></Link>
         </div>
         <div className="navbar_phone">
           <Link to={'/'} className="main-header-wrap"><h1><span>MA</span>N</h1></Link>
@@ -57,8 +60,8 @@ function Navbar() {
               <NavLink to="/investors" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Investors</NavLink>
               <NavLink to="/media"  style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Media</NavLink>
               <NavLink to="/careers" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Careers</NavLink>
+              <NavLink to="/contact" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Contact</NavLink>
             </nav>
-            <Link to="/contact"><button className='navbar_contact'>Contact</button></Link>
           </div>}
         </div>
     </div>

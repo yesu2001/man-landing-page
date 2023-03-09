@@ -19,7 +19,7 @@
 .section_container {
   display: flex;
   flex-wrap: wrap;
-  background: #000000;
+  background: grey;
 }
 
 .hero_section_content {

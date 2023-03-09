@@ -1,42 +1,17 @@
 
 .Navbar {
-    color: white;
-    background: #1E2222;
-    /* background: rgba(0, 0, 0, 0.8); */
+    color: black;
+    background: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    position: sticky ;
-    top:0;
-    z-index: 1;
-    height: 50px;
-    padding: 5px 15px;
+    padding: 10px 15px;
 }
 
-.main-header-wrap {
-    color: white;
-}
-
-nav {
-}
-.main-header-wrap h1{
-    font-family: 'Imbue', serif;
-    font-size: 1.5em;
-    cursor: pointer;
-    border-top: 0.5px solid white;
-    border-bottom: 0.5px solid white;
-}
-.main-header-wrap span{
-    color: #C0C0C0;
-}
-
-
-.navbar_logo {
-    font-size: 30px;
-    cursor: pointer;
-}
 
 .navbar_phone {
+    height: 60px;
     display: flex;
+    color: white;
 }
 
 .navbar_desktop {
@@ -63,32 +38,19 @@ nav {
     font-size: 20px;
 }
 
-
-
 .navList {
     font-size: 0.9em;
     margin: 15px 0px;
-    color: whitesmoke;
+    color: white;
     cursor: pointer;
     padding: 5px 0;
 
 }
 
-.navbar_contact  {
-    background: transparent;
-    border:none;
-    font-size: 0.9em;
-    font-weight: bold;
-    cursor: pointer;
-    color: var(--primary);
-    margin: 20px;
-}
 
 .active {
-    color: white;
-    font-weight: 500;
+    font-weight: 600;
     margin: 15px 0;
-    border-bottom: 2px solid var(--primary);
 }
 
 
@@ -96,6 +58,8 @@ nav {
    
     .navbar_phone {
         display: flex;
+        height: 50px;
+
     }
 
     .navbar_desktop {
@@ -104,10 +68,12 @@ nav {
 }
 
 @media screen and  (min-width:805px) and (max-width:1080px){
-   .navbar_desktop {
+    .navbar_desktop {
+       height: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 50px;
    }
    .navbar_phone {
     display: none;
@@ -121,17 +87,21 @@ nav {
 }
   @media screen and  (min-width:1080px){
    .navbar_desktop {
+    color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 100px;
    } 
 
    .navList {
     margin: 0 20px;
+    color: black;
    }
+
    .navbar_phone {
-    visibility: hidden;
-   }
+    display: none;
+    }
    .navbar_contact {
     margin: 0;
    }
