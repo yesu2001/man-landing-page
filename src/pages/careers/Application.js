@@ -16,7 +16,7 @@ export default function Application(){
     return(
         <div className='application'>
             <Navbar/>
-            <h1 className='page_title'>Application <br/><h3 className="job_name">{location.state.name}</h3></h1>
+            <h1 className='page_title'>Application  -  <span>{location.state.name}</span></h1>
             <section className='application_section'>
                 <div>
                     <h3 className='section_title'>Job Brief</h3>
@@ -136,3 +136,7 @@ export default function Application(){
         </div>
     );
 }
+
+
+
+

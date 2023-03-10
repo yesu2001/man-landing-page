@@ -198,39 +198,3 @@ var output = document.getElementById('output');
 }
 window.onload = handleChange;
 
-
-//   const options = {
-//     method: 'GET',
-//     headers: {
-//       'X-RapidAPI-Key': '49158bdb36mshaea5d5d7f6e909cp149c6ejsnb6b8ae2761a9',
-//       'X-RapidAPI-Host': 'climate-news-feed.p.rapidapi.com'
-//     }
-//   };
-  
-//     fetch('https://climate-news-feed.p.rapidapi.com/page/1?limit=10', options)
-//     .then(response => response.json())
-//     .then(response => {
-//       for(var i = 0; i< response.articles.length; i++){
-//         document.getElementById('news').innerHTML = response.articles[i].title;
-//         document.getElementById('sub').innerHTML ='Source:&nbsp;'+ response.articles[i].source;
-//       }
-//     })
-//     .catch(err => console.error(err));
-
-//     const option = {
-//       method: 'GET',
-//       headers: {
-//         'X-RapidAPI-Key': '49158bdb36mshaea5d5d7f6e909cp149c6ejsnb6b8ae2761a9',
-//         'X-RapidAPI-Host': 'daily-atmosphere-carbon-dioxide-concentration.p.rapidapi.com'
-//       }
-//     };
-    
-//     fetch('https://daily-atmosphere-carbon-dioxide-concentration.p.rapidapi.com/api/co2-api', option)
-//       .then(response => response.json())
-//       .then(response => {
-//         for(var i = 0; i< response.co2.length; i++){
-//         console.log(response.co2[i].cycle);
-//         document.getElementById('cycle').innerHTML = response.co2[i].cycle;
-//         }
-//       })
-//       .catch(err => console.error(err));

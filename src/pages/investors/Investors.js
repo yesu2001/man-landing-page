@@ -12,7 +12,7 @@ function Investors() {
   return (
       <div className="investors">
           <Navbar/>
-          <div className="investors_section com_bg">
+          <div className="investors_section">
             <h2 className='section_title'>Letter to Shareholders</h2>
             <p>In 2022, as the Covid-19 pandemic persisted throughout the year, multiple uncertainties. In addition, we faced challenges on setting up the business environment. MAN recognizes sustainability management as a fundamental value and core aspect of our business, and we are devoted to fulfilling our social responsibilities as a global corporate citizen.
             The Company persevered and set on target & total commitment of our employees and partners.</p>
@@ -24,7 +24,7 @@ function Investors() {
             The principles serve as the global code of conduct in compliance with legal and ethical standards and the fulfilment of its corporate social responsibilities.</p>
             <Link to="/investors/principles" className='link'>Learn more</Link>
           </div>
-          <div className="investors_section com_bg">
+          <div className="investors_section">
             <h2 className='section_title'>Meeting our customer's needs</h2>
             <p>We continually innovate and use industry-leading technology to safely produce lower-emission energy resources to affordably and reliably meet the fundamental needs of people around the world.<br/>
             Our upstream operations bring reliable and affordable energy solutions to the world through our project Energy.</p>

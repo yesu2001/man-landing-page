@@ -4,6 +4,11 @@
     margin-top: 50px;
 }
 
+.page_title > span {
+    background: #fb7674;
+    color: white;
+    padding: 0 10px;
+}
 .application_section > div {
     margin: 20px 20px;
     text-align: center;

@@ -78,27 +78,27 @@ We commit to being a good corporate citizen in all the places we operate worldwi
               <p>Affordable and sustainable energy solutions are required to advance global prosperity. We invest in technology and communities to bring the world better energy</p>
               <div className="section_list">
                 <div>
-                    <h4>Improving energy access</h4>
+                    <p>Improving energy access</p>
                     <HiOutlineLightBulb/>  
                 </div>
                 <div>
-                    <h4>Sustainability</h4>
+                    <p>Sustainability</p>
                     <ImEarth />  
                 </div>
                 <div>
-                    <h4>Improving efficiency</h4>
+                    <p>Improving efficiency</p>
                     <BsRecycle/>  
                 </div> 
                 <div>
-                    <h4>Outreach</h4>
+                    <p>Outreach</p>
                     <FaHandshake/>  
                 </div>
                 <div>
-                    <h4>Emission Control</h4>
+                    <p>Emission Control</p>
                     <TbBuildingFactory2/>  
                 </div>
                 <div>
-                    <h4>Job Creation</h4>  
+                    <p>Job Creation</p>  
                     <BsFillPersonBadgeFill/>  
                 </div>
               </div>

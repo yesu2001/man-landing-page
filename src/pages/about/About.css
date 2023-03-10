@@ -14,10 +14,10 @@
 
 
 .about_section {
+    font-size: 1em;
     width: 100%;
     height: 70vh;
     padding: 5em 10em;
-    font-size: 0.8em;
     background: #E2E2E2;
         
 }
@@ -35,11 +35,7 @@ hr {
 .section_list {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
-    color: orangered;
-    
-    
 }
 
 .section_list > div {
@@ -53,6 +49,7 @@ hr {
     padding: 15px 20px;
     border-radius: 5px;
     background: white;
+    font-size: 20px;
 }
 
 
