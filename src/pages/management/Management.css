@@ -1,16 +1,31 @@
-.management  > p {
-	padding: 20px 10px;
-	text-align: center;
-	
-}	
-
-
-
+.management {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background: #e2e2e2;
+	padding: 50px 0;
+	font-size: 1.1em;
+}
 
 .management_section {
-	width: 100%;
-    padding: 2em 1em;
+	background-color: white;
+	/* width: 80%; */
+	margin: 15px 20px;
+    /* padding: 25px; */
 	font-size: 0.8em;
+	border-radius: 4px;
+}
+
+.management_section > div {
+    background: #36454F;
+	color: white;
+	padding: 25px;
+}
+.management_section > div > div{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 10px;
 }
 
 .management_section > span {
@@ -18,7 +33,7 @@
 }
 
 .management_section > p {
-	padding: 10px 0;
+	padding: 25px;
 }
 
 .social_icons {
@@ -26,7 +41,7 @@
 }
 
 .icon {
-	color: black;
+	color: white;
 	margin: 0 10px;
 }
 
@@ -37,8 +52,14 @@
 }
 
 @media screen and  (min-width:1080px){
-    .management_section {
-		padding: 3em 15em;
+    .management {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
 	}
-    
+
+	.management_section {
+		width: 550px;
+	}
+	
 }

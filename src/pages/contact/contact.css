@@ -1,5 +1,6 @@
 .contact_section {
     padding: 10px;
+    background: #e2e2e2;
 }
 
 
@@ -81,7 +82,7 @@ input,textarea{
 .contact_section_one > img {
     display: block;
     object-fit: contain;
-    width: 600px;
+    width: 550px;
 }
 
 .contact_section_form {

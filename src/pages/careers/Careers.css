@@ -36,6 +36,12 @@
     font-weight: 600;
 }
 
+.career_section_three {
+    background: #36454F;
+    color: white;
+    padding: 50px 50px;
+}
+
 
 @media screen and  (min-width:300px) and  (max-width:800px){
 

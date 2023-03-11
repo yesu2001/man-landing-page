@@ -2,9 +2,20 @@
     background: #E2E2E2;
 
 }
+
 .investors_section {
-    padding: 50px;
-    font-size: 0.8em;
+    margin: 2em 2em;
+}
+.investors_header {
+    padding: 10px 30px;
+    color: white;
+    background: black;
+}
+
+.investors_section > p {
+    padding: 3em 3em;
+    background: aliceblue;
+    margin: 15px;
 }
 
 .section_title{
@@ -12,7 +23,10 @@
 }
 
 .link {
-    color: var(--primary);
+    background: #36454F;
+    color: white;
+    margin: 25px 0;
+    padding: 10px 20px;
     font-weight: 500;
 }
 
@@ -107,9 +121,8 @@
 
 @media screen and  (min-width:1080px){
     .investors_section {
-        height: 45em;
-        /* width: 80%; */
-        padding: 100px 400px;
+        margin: 10em 0;
+        padding: 0px 300px;
     }
 
     .investors_section p {
