@@ -11,6 +11,7 @@
     grid-auto-rows: minmax(175px, auto);
     font-family: 'D-DIN DIN-Bold';
     background-color: black;
+    background: url("../../images/1200.png");
   }
   .las-sec-div-main{
     display: grid;
