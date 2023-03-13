@@ -22,14 +22,14 @@
 }
 
 .contact_section_form > form {
-    width: 350px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-input,textarea{
+.contact_section_form > form > input, .contact_section_form > form >textarea{
     width: 80%;
     margin: 10px 0;
     padding: 15px 15px;

@@ -14,23 +14,25 @@ export default function Application(){
     },[]) 
 
     return(
-        <div className='application'>
+        <div>
             <Navbar/>
-            <h1 className='page_title'>Application  -  <span>{location.state.name}</span></h1>
-            <section className='application_section'>
-                <div>
-                    <h3 className='section_title'>Job Brief</h3>
-                    <p>{location.state.brief}</p>
+            <div>
+                <h1 className='page_title'>Application  -  <span>{location.state.name}</span></h1>
+                <div className='application_section'>
+                    <div>
+                        <h3 className='section_title'>Job Brief</h3>
+                        <p>{location.state.brief}</p>
+                    </div>
+                    <div>
+                        <h3 className='section_title'>Responsibilities</h3>
+                        <p>{location.state.respon}</p>
+                    </div>
+                    <div>
+                        <h3 className='section_title'>Requirements and skills</h3>
+                        <p>{location.state.skill}</p>
+                    </div>
                 </div>
-                <div>
-                    <h3 className='section_title'>Responsibilities</h3>
-                    <p>{location.state.respon}</p>
-                </div>
-                <div>
-                    <h3 className='section_title'>Requirements and skills</h3>
-                    <p>{location.state.skill}</p>
-                </div>
-            </section>
+            </div>
             <hr/>
             <div className='e-form-div'>
             <form method='POST' action='sendmail.php' enctype="multipart/form-data">
@@ -124,9 +126,13 @@ export default function Application(){
                                 </select>
                             </div>
                         </div>
-                        <div className='dis-chk-bx'>
-                            <p><input type={'checkbox'}/>I have read and understand the statements above and accept them as conditions of employment.</p>
-                            <p><input type={'checkbox'}/>I acknowledge that I have read and understood Equal Opportunities.</p>
+                        <div className='check_box'>
+                            <p>
+                                <input type='checkbox'/>I have read and understand the statements above and accept them as conditions of employment.
+                            </p>
+                            <p>
+                            <input type='checkbox'/>I acknowledge that I have read and understood Equal Opportunities.
+                            </p>
                         </div>
                         <button type='submit'>Submit</button>
                     </div>

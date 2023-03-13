@@ -30,7 +30,7 @@ function Home({news,celcius,sub}) {
             {/* </Fade> */}
             <div>
             {/* <Fade big> */}
-              <button>Learn more</button>
+              <Link to="/projects/ourprojects"><button>Learn more</button></Link>
               {/* </Fade> */}
             </div>
           </div>

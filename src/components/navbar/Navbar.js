@@ -35,7 +35,7 @@ function Navbar() {
     <div className='Navbar'>
         <div className='navbar_desktop'>
             <nav>
-              <NavLink to={'/'}><span>MA</span>N</NavLink>
+              <NavLink to={'/'} className="logo"><span>MA</span>N</NavLink>
               <NavLink to="/about" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">About Us</NavLink>
               <NavLink to="/projects/ourprojects" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Projects</NavLink>
             </nav>
@@ -51,7 +51,7 @@ function Navbar() {
           <ImMenu onClick={handleOpen}/>
            { showModal && <div className="modal" style={modalStyles}>
             <div className="navbar_phone_header">
-              <h1>MAN</h1>
+            <NavLink to={'/'} className="logo"><span>MA</span>N</NavLink>
               <ImCross onClick={handleClose}/>
             </div>
             <nav>
