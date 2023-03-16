@@ -78,10 +78,9 @@ function App() {
           <Route path="/investors/principles" element={<Principles/>}/>
           <Route path="/investors/letters" element={<Letters/>}/>
           <Route path="/contact" element={<Contact/>}/>
-          <Route path="/projects" element={<Projects/>}/>
-          <Route path="/privacy" element={<Privacy/>}/>
+                    <Route path="/privacy" element={<Privacy/>}/>
           <Route path="/legal" element={<Legal/>}/>
-          <Route path="/projects/ourprojects" element={<OurProjects/>}/>
+          <Route path="/ourprojects" element={<OurProjects/>}/>
           <Route path="/about/management" element={<Management/>}/>
           <Route path="/careers" element={<Careers/>}/>
           <Route path="/sustainability" element={<Sustainability/>}/>

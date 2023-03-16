@@ -74,7 +74,7 @@ function OurProjects() {
                             <div className='c-img-div'></div>
                             <div>
                                 <div>
-                                    <h2> <TiTick/> Offering Charging Unit with dual cabels.</h2>
+                                    <h2> Offering Charging Unit with dual cabels.</h2>
                                     <h2><TiTick/> 24/7 Smart Charging.</h2>
                                     <h2><TiTick/> Easy Customer Experince.</h2>
                                     <h2><TiTick/> Cutting Edge Design.</h2>

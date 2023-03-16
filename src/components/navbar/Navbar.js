@@ -37,7 +37,7 @@ function Navbar() {
             <nav>
               <NavLink to={'/'} className="logo"><span>MA</span>N</NavLink>
               <NavLink to="/about" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">About Us</NavLink>
-              <NavLink to="/projects/ourprojects" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Projects</NavLink>
+              <NavLink to="/ourprojects" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Projects</NavLink>
             </nav>
             <nav>
               <NavLink to="/investors" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Investors</NavLink>
@@ -56,7 +56,7 @@ function Navbar() {
             </div>
             <nav>
               <NavLink to="/about" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">About Us</NavLink>
-              <NavLink to="/projects"  style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Projects</NavLink>
+              <NavLink to="/ourprojects"  style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Projects</NavLink>
               <NavLink to="/investors" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Investors</NavLink>
               <NavLink to="/media"  style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Media</NavLink>
               <NavLink to="/careers" style={({ isActive }) => isActive ? activeStyle : undefined} className="navList">Careers</NavLink>
