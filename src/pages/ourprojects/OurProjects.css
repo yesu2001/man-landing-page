@@ -83,8 +83,11 @@ section {
     margin: 0 0 0 0.5em;
 }
 .pp-ee{
-    width: 50%;
+    width: 60%;
     margin: 2.5em auto;
+    background: #E2E2E2;
+    padding: 2em 2em;
+    
 }
 .pp-ee h1{
     font-size: 1.5em;
@@ -230,11 +233,13 @@ section {
     width: 90%;
     margin: 1em auto;
     font-size: 2em;
+    
 }
 .bg-bg p{
     width: 90%;
-    margin: 0 auto 0.5em auto;
+    margin: 0 auto;
     font-size: 0.55em;
+    background-color: #E2E2E2;
 }
 .bg-col{
     background-color: #f3f6f5;
@@ -345,6 +350,7 @@ section {
     .pp-ee{
         width: 85%;
         margin: 2.5em auto;
+
     }
     .c-wrp-div{
         flex-direction: column;

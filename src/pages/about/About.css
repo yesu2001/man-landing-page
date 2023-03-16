@@ -64,17 +64,16 @@ hr {
 }
 
 .section_list > div {
-    width: 350px;
+    width: 300px;
     color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-left: 3px solid var(--primary);
     margin: 10px 0;
-    padding: 15px 20px;
+    padding: 15px 15px;
     border-radius: 5px;
     background: white;
-    font-size: 20px;
 }
 
 
@@ -96,7 +95,6 @@ hr {
 
     .section_list {
         display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
         margin-top: 50px;
     }
