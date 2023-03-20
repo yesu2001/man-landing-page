@@ -3,8 +3,26 @@ import React from 'react';
 import {useLocation} from 'react-router-dom';
 import Navbar from '../../components/navbar/Navbar';
 import FooterSection from '../../components/footerSection/FooterSection';
+import FileBase from 'react-file-base64';
+import axios from 'axios';
+
 
 export default function Application(){
+
+    const [formData,setFormData] = React.useState({
+        firstName: '',
+        lastName: '',
+        middleName: '',
+        preferedName: '',
+        email: '',
+        country:'',
+        resume: '',
+        isIntern: '',
+        isStudent: '',
+        otherJobs: '',
+        gender: '',
+        disability: '',
+    })
 
     const location = useLocation();
     document.title = 'Application - MAN.';
@@ -12,6 +30,37 @@ export default function Application(){
     React.useEffect(() => {
         window.scrollTo(0,0);
     },[]) 
+
+    const handleChange = (e) => {
+        setFormData((prevState) => ({
+            ...prevState,
+            [e.target.name] : e.target.value,
+        }))
+    }
+    
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        console.log(formData)
+        // fetch(baseURL)
+
+        axios.post('http://localhost:8000/applications', formData).then((response) => {
+            console.log(response.data)
+        })
+        setFormData({
+            firstName: '',
+            lastName: '',
+            middleName: '',
+            preferedName: '',
+            email: '',
+            country:'',
+            resume: '',
+            isIntern: '',
+            isStudent: '',
+            otherJobs: '',
+            gender: '',
+            disability: '',
+        })
+    }
 
     return(
         <div>
@@ -35,43 +84,44 @@ export default function Application(){
             </div>
             <hr/>
             <div className='e-form-div'>
-            <form method='POST' action='sendmail.php' enctype="multipart/form-data">
+            <form method='POST' action='sendmail.php' enctype="multipart/form-data" onSubmit={handleSubmit}>
                     <div className='list-p-info-div'>
                         <h2>Step 1 of 3</h2>
                         <h1>Personal Information.</h1>
                         <div className='list-p-inf-wrap'>
                             <div>
                                 <label>First Name</label>
-                                <input name='fname' id='fname'></input>
+                                <input required name='firstName' value={formData.firstName} onChange={handleChange} id='fname'></input>
                             </div>
                             <div>
                                 <label>Last Name</label>
-                                <input name='lname' id='lname'></input>
+                                <input required name='lastName' value={formData.lastName} onChange={handleChange} id='lname'></input>
                             </div>
                         </div>
                         <div className='list-p-inf-wrap'>
                             <div>
                                 <label>Middle Name (Optional)</label>
-                                <input></input>
+                                <input name="middleName" value={formData.middleName} onChange={handleChange}></input>
                             </div>
                             <div>
                                 <label>Preferred Name (Optional)</label>
-                                <input></input>
+                                <input name="preferedName" value={formData.preferedName} onChange={handleChange}></input>
                             </div>
                         </div>
                         <div className='list-p-inf-wrap'>
                             <div>
                                 <label>Email</label>
-                                <input name='email' id='email'></input>
+                                <input required name='email' value={formData.email} onChange={handleChange} id='email'></input>
                             </div>
                             <div>
                                 <label>Country of Residence</label>
-                                <input name='coty' id='coty'></input>
+                                <input required name='country' value={formData.country} onChange={handleChange} id='coty'></input>
                             </div>
                         </div>
                         <div className='list-res'>
                             <label>Resume <span>(PDF, Doc, TXT)</span></label>
-                            <input type={'file'} name='file' id='file'></input>
+                            <FileBase type="file" multiple={false} onDone={({ base64 }) => setFormData({ ...formData, resume: base64 })} />
+                            {/* <input type={'file'} name='resume' id='file' onChange={handleFileChange}></input> */}
                         </div>
                     </div>
                     <hr/>
@@ -84,18 +134,18 @@ export default function Application(){
                         <div className='wrap-list-ack'>
                             <label>Are you a former/current intern?</label>
                             <div> 
-                                <p><input type={'radio'} name="choice-radio"/>Yes</p>
-                                <p><input type={'radio'} name="choice-radio"/>No</p>
+                                <p><input type={'radio'} name="isIntern" value='yes' checked={formData.isIntern === 'yes'} onChange={handleChange}/>Yes</p>
+                                <p><input type={'radio'} name="isIntern" value='no' checked={formData.isIntern === 'no'} onChange={handleChange}/>No</p>
                             </div>
                             <label>Are you a current university student?</label>
                             <div>
-                                <p><input type={'radio'} name="choice-radio2"/>Yes</p>
-                                <p><input type={'radio'} name="choice-radio2"/>No</p>
+                                <p><input type={'radio'} name="isStudent" value='yesu' checked={formData.isStudent === 'yes'} onChange={handleChange}/>Yes</p>
+                                <p><input type={'radio'} name="isStudent" value='no' checked={formData.isStudent === 'no'} onChange={handleChange}/>No</p>
                             </div>
                             <label>I authorize to consider me for other job opportunities.</label>
                             <div>
-                                <p><input type={'radio'} name="choice-radio3"/>Yes</p>
-                                <p><input type={'radio'} name="choice-radio3"/>No</p>
+                                <p><input type={'radio'} name="otherJobs" value='yes' checked={formData.otherJobs === 'yes'} onChange={handleChange}/>Yes</p>
+                                <p><input type={'radio'} name="otherJobs" value='no' checked={formData.otherJobs === 'no'} onChange={handleChange}/>No</p>
                             </div>
                             
                         </div>
@@ -109,7 +159,7 @@ export default function Application(){
                         <div className='disc-div-sel'>
                             <div>
                                 <label>Gender</label>
-                                <select name='gend' id='gend'>
+                                <select name='gender' id='gend' value={formData.gender} onChange={handleChange}>
                                     <option value="nil">- Select an option -</option>
                                     <option value="male">Male</option>
                                     <option value="female">Female</option>
@@ -118,7 +168,7 @@ export default function Application(){
                             </div>
                             <div>
                                 <label>Disability</label>
-                                <select name='disy' id='disy'>
+                                <select name='disability' id='disy' value={formData.disability} onChange={handleChange}>
                                     <option value="nil">- Select an option -</option>
                                     <option value="yes">Yes, I have disability</option>
                                     <option value="no">No, I don't have disability</option>

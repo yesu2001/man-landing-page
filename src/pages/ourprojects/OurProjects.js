@@ -1,11 +1,9 @@
 import React from 'react';
 import './OurProjects.css';
-import { BsDownload } from 'react-icons/bs';
-import { BsPrinter } from 'react-icons/bs';
 import Navbar from '../../components/navbar/Navbar';
 import FooterSection from '../../components/footerSection/FooterSection';
 import VidUS from '../../videos/US.mp4';
-
+import { TbCircleCheck } from "react-icons/tb";
 function OurProjects() {
   document.title = 'US Projects- MAN.';
   React.useEffect(() => {
@@ -73,12 +71,12 @@ function OurProjects() {
                             <div className='c-img-div'></div>
                             <div>
                                 <div>
-                                    <h2>- Offering Charging Unit with dual cabels.</h2>
-                                    <h2>- 24/7 Smart Charging.</h2>
-                                    <h2>- Easy Customer Experince.</h2>
-                                    <h2>- Cutting Edge Design.</h2>
-                                    <h2>- Launching a Rapid charging Network.</h2>
-                                    <h2>- Simplified.</h2>
+                                    <h2><TbCircleCheck/> Offering Charging Unit with dual cabels.</h2>
+                                    <h2><TbCircleCheck/> 24/7 Smart Charging.</h2>
+                                    <h2><TbCircleCheck/> Easy Customer Experince.</h2>
+                                    <h2><TbCircleCheck/> Cutting Edge Design.</h2>
+                                    <h2><TbCircleCheck/> Launching a Rapid charging Network.</h2>
+                                    <h2><TbCircleCheck/> Simplified.</h2>
                                 </div>
                             </div>
                         </div>

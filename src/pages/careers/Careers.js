@@ -84,7 +84,7 @@ function Careers() {
         <Navbar/>
         <div className='career_section'>
             {/* <div> */}
-                <h2 className="section_title">Quit<br/> your<br/> Job<br/>  Today</h2>
+                <h2 className="section_one_title">Quit<br/> your<br/> Job<br/>  Today</h2>
                 <div className='career_section_para'>
                     <p>It doesn’t matter where you come from, where you went to school or what industry you’re in if you’ve done exceptional work.</p>
                     <p>When you work here, you get that our values are more than just words on paper. You’re joining a place where diversity, equity, and inclusion are at the heart of our business practices and culture.</p>

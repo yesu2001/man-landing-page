@@ -11,6 +11,11 @@
     background: #E2E2E2;
 }
 
+.section_one_title {
+    background: #36454F !important;
+    color: white
+}
+
 
 .career_section h2 {
     margin: 0 20px;

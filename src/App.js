@@ -9,7 +9,6 @@ import Principles from './pages/investors/Principles';
 import Media from './pages/media/Media';
 import Contact from './pages/contact/Contact';
 import Home from './pages/home1/Home';
-import Projects from './pages/projects/Projects';
 import OurProjects from './pages/ourprojects/OurProjects';
 import Management from './pages/management/Management';
 import Privacy from './pages/privacy/Privacy';
@@ -78,10 +77,9 @@ function App() {
           <Route path="/investors/principles" element={<Principles/>}/>
           <Route path="/investors/letters" element={<Letters/>}/>
           <Route path="/contact" element={<Contact/>}/>
-          <Route path="/projects" element={<Projects/>}/>
           <Route path="/privacy" element={<Privacy/>}/>
           <Route path="/legal" element={<Legal/>}/>
-          <Route path="/projects/ourprojects" element={<OurProjects/>}/>
+          <Route path="/ourprojects" element={<OurProjects/>}/>
           <Route path="/about/management" element={<Management/>}/>
           <Route path="/careers" element={<Careers/>}/>
           <Route path="/sustainability" element={<Sustainability/>}/>

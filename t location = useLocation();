@@ -1,0 +1,126 @@
+[33mcommit 79d4fde0c00d9d014246ceb34ee28c8b85d58cdb[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Yesu <yesupadam2001@gmail.com>
+Date:   Mon Mar 13 16:07:17 2023 +0530
+
+    application page edited
+
+[33mcommit 8bedee034480eebbbc22d2f111e375edc8d85c84[m
+Author: Yesu <yesupadam2001@gmail.com>
+Date:   Mon Mar 13 15:03:59 2023 +0530
+
+    image in home
+
+[33mcommit 6ccdc5d6b8e975e838a3d916e4ed85ef9ec93d3f[m
+Author: Yesu <yesupadam2001@gmail.com>
+Date:   Mon Mar 13 14:43:18 2023 +0530
+
+    changed font size in about page
+
+[33mcommit 8bb5085bd6e128619c66e6498dda2d5638f77320[m
+Author: Yesu <yesupadam2001@gmail.com>
+Date:   Sun Mar 12 01:27:48 2023 +0530
+
+    changed invesotrs page,careers page and investors page
+
+[33mcommit d5989ff7aa0331b38cdaa0d3e077f52b900042c4[m
+Author: Yesu <yesupadam2001@gmail.com>
+Date:   Sat Mar 11 02:02:35 2023 +0530
+
+    edited application and careers page
+
+[33mcommit fa3a6f4682378141c08700f523b4bf1acb59ba23[m
+Author: Yesu <yesupadam2001@gmail.com>
+Date:   Fri Mar 10 02:06:42 2023 +0530
+
+    edited careers page to new caareers page and also changed home page
+
+[33mcommit 3b5e4929cf0853ad26d18d9a6900e9749af46bf7[m
+Author: Yesu <yesupadam2001@gmail.com>
+Date:   Tue Mar 7 23:56:28 2023 +0530
+
+    edited and added new images to home page
+
+[33mcommit 359ae779a10cd013f8e146c08f32be974f738165[m
+Merge: 5bd6ab7 ac02557
+Author: Yesu <yesupadam2001@gmail.com>
+Date:   Tue Mar 7 21:02:46 2023 +0530
+
+    changed the images from the pages
+
+[33mcommit ac02557e62cfd24a5ab3adf4442068e5ac1e9e4c[m
+Author: yesu2001 <yesupadam2001@gmail.com>
+Date:   Tue Mar 7 10:57:15 2023 +0530
+
+    third commit
+
+[33mcommit 5bd6ab7cdc628232cd079fdc12e5fe2b4d094913[m
+Author: Yesu <yesupadam2001@gmail.com>
+Date:   Tue Mar 7 00:13:00 2023 +0530
+
+    second commit
+
+[33mcommit 17ac1bfcb9059c7040a85980a272bd6df9977125[m
+Author: Yesu <yesupadam2001@gmail.com>
+Date:   Mon Mar 6 00:23:16 2023 +0530
+
+    added some background to some sections fo the componenets
+
+[33mcommit 4d6a994abf0d2e484d3164cd9e97db50167b9dbd[m
+Author: Yesu padam <yesupadam2001@gmail.com>
+Date:   Sat Mar 4 18:10:53 2023 +0530
+
+    added some background changes
+
+[33mcommit 515235163f265198eadcf7d62902658862b8ade3[m
+Author: yesu2001 <yesupadam2001@gmail.com>
+Date:   Thu Mar 2 16:13:55 2023 +0530
+
+    added scroll function to the top to all components
+
+[33mcommit 526bb09aac3090d88d51706cc8b7a87fc85646e9[m
+Author: Yesu <yesupadam2001@gmail.com>
+Date:   Thu Mar 2 15:21:38 2023 +0530
+
+    adited home page
+
+[33mcommit 509a89e214a0db18d5ddaca0e5f1f605d07adcf5[m
+Author: Yesu <yesupadam2001@gmail.com>
+Date:   Sun Feb 26 12:26:50 2023 +0530
+
+    added some images to home page
+
+[33mcommit ecbf8848cda5c465c5bb2f9acd79214d0a95d7ad[m
+Author: Yesu padam <yesupadam2001@gmail.com>
+Date:   Fri Feb 24 17:44:55 2023 +0530
+
+    edited home page and added some components
+
+[33mcommit 6e4b18d3acb612c1ee5a9435cf5996bd7db1a9ad[m
+Author: Yesu <yesupadam2001@gmail.com>
+Date:   Fri Feb 24 01:28:41 2023 +0530
+
+    changes some files into respnsive
+
+[33mcommit b570f2770943fdbbbcabfa49b5015544ae372f6c[m
+Author: Yesu padam <yesupadam2001@gmail.com>
+Date:   Thu Feb 23 20:47:54 2023 +0530
+
+    added responsive to some pages
+
+[33mcommit 0d5ebe2e8f21f73fd77826372d2bb4be07165316[m
+Author: Yesu <yesupadam2001@gmail.com>
+Date:   Thu Feb 23 01:19:07 2023 +0530
+
+    changed some files and added images and videos
+
+[33mcommit 7a6a607c73ce55cc04df68a918540deacb964400[m
+Author: Yesu padam <yesupadam2001@gmail.com>
+Date:   Tue Feb 21 17:09:32 2023 +0530
+
+    added new code to some files in pages
+
+[33mcommit 9a2021cf4db7c8d6178dd85f13cc4ba466cd62a1[m
+Author: Yesu padam <yesupadam2001@gmail.com>
+Date:   Mon Feb 20 20:41:58 2023 +0530
+
+    created pages folder
