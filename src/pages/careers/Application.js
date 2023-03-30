@@ -46,20 +46,20 @@ export default function Application(){
         axios.post('http://localhost:8000/applications', formData).then((response) => {
             console.log(response.data)
         })
-        setFormData({
-            firstName: '',
-            lastName: '',
-            middleName: '',
-            preferedName: '',
-            email: '',
-            country:'',
-            resume: '',
-            isIntern: '',
-            isStudent: '',
-            otherJobs: '',
-            gender: '',
-            disability: '',
-        })
+        // setFormData({
+        //     firstName: '',
+        //     lastName: '',
+        //     middleName: '',
+        //     preferedName: '',
+        //     email: '',
+        //     country:'',
+        //     resume: '',
+        //     isIntern: '',
+        //     isStudent: '',
+        //     otherJobs: '',
+        //     gender: '',
+        //     disability: '',
+        // })
     }
 
     return(
