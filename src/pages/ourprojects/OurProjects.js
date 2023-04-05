@@ -3,7 +3,8 @@ import './OurProjects.css';
 import Navbar from '../../components/navbar/Navbar';
 import FooterSection from '../../components/footerSection/FooterSection';
 import VidUS from '../../videos/US.mp4';
-import { TbCircleCheck } from "react-icons/tb";
+import { TiTick } from "react-icons/ti";
+
 function OurProjects() {
   document.title = 'US Projects- MAN.';
   React.useEffect(() => {
@@ -71,12 +72,12 @@ function OurProjects() {
                             <div className='c-img-div'></div>
                             <div>
                                 <div>
-                                    <h2><TbCircleCheck/> Offering Charging Unit with dual cabels.</h2>
-                                    <h2><TbCircleCheck/> 24/7 Smart Charging.</h2>
-                                    <h2><TbCircleCheck/> Easy Customer Experince.</h2>
-                                    <h2><TbCircleCheck/> Cutting Edge Design.</h2>
-                                    <h2><TbCircleCheck/> Launching a Rapid charging Network.</h2>
-                                    <h2><TbCircleCheck/> Simplified.</h2>
+                                    <h2>- Offering Charging Unit with dual cabels.</h2>
+                                    <h2>- 24/7 Smart Charging.</h2>
+                                    <h2>- Easy Customer Experince.</h2>
+                                    <h2>- Cutting Edge Design.</h2>
+                                    <h2>- Launching a Rapid charging Network.</h2>
+                                    <h2>- Simplified.</h2>
                                 </div>
                             </div>
                         </div>
@@ -85,9 +86,9 @@ function OurProjects() {
                 <section className='bg-bg'>
                     <div>
                         <h1>Premiere Rapid-Charging Network</h1>
-                            <p>- Upcoming USA Best EV infrastructure Project.</p>
-                            <p>- Planning to invest in contactless wireless charging.</p>
-                            <p>- Intergated with efficient energy storage.</p>
+                            <p><TiTick/> Upcoming USA Best EV infrastructure Project.</p>
+                            <p><TiTick/> Planning to invest in contactless wireless charging.</p>
+                            <p><TiTick/> Intergated with efficient energy storage.</p>
                         <div className='sec-wrp-div-ig'>
                             <div className='sec-con-div'>
                                 <div>
@@ -109,7 +110,7 @@ function OurProjects() {
                     </div>
                 </section>
                 <div className='pp-ee'>
-                    <h1>Partnerships and collaborations</h1>
+                    <h2>Partnerships and collaborations</h2>
                     <p>We constantly look for new ideas. Our engineers and scientists collaborate with other companies and organizations to find ways to improve efficiency and help lower emissions for several modes of transportation.</p>
                 </div>
                 <section className='pr-wrp-div'>

@@ -41,25 +41,25 @@ export default function Application(){
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log(formData)
-        // fetch(baseURL)
 
         axios.post('http://localhost:8000/applications', formData).then((response) => {
             console.log(response.data)
         })
-        // setFormData({
-        //     firstName: '',
-        //     lastName: '',
-        //     middleName: '',
-        //     preferedName: '',
-        //     email: '',
-        //     country:'',
-        //     resume: '',
-        //     isIntern: '',
-        //     isStudent: '',
-        //     otherJobs: '',
-        //     gender: '',
-        //     disability: '',
-        // })
+        
+        setFormData({
+            firstName: '',
+            lastName: '',
+            middleName: '',
+            preferedName: '',
+            email: '',
+            country:'',
+            resume: '',
+            isIntern: '',
+            isStudent: '',
+            otherJobs: '',
+            gender: '',
+            disability: '',
+        })
     }
 
     return(
@@ -121,7 +121,6 @@ export default function Application(){
                         <div className='list-res'>
                             <label>Resume <span>(PDF, Doc, TXT)</span></label>
                             <FileBase type="file" multiple={false} onDone={({ base64 }) => setFormData({ ...formData, resume: base64 })} />
-                            {/* <input type={'file'} name='resume' id='file' onChange={handleFileChange}></input> */}
                         </div>
                     </div>
                     <hr/>
